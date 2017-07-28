@@ -1,0 +1,147 @@
+/*Reviews*/
+    /*Review item*/
+.review__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.review__title {
+    color: #010101;
+    font-size: 30px;
+    font-weight: 500;
+}
+.review__botton {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #ffbd02;
+    padding: 7px 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    cursor: pointer;
+}
+.review__botton-block {
+    align-items: end;
+    display: flex;
+}
+.review-item__container {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.review-item-block {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+}
+        /*Graduation data*/
+.review-item-block__top-row {
+    display: flex;
+    justify-content: space-between;
+}
+.review-item-block__graduation-data:before {
+    content: "\f0e6";
+    font-family: FontAwesome;
+    color: #0968a5;
+    font-size: 30px;
+    vertical-align: middle;
+    display: block;
+    float: left;
+    top: -10px;
+    position: relative;
+    margin-right: 15px;
+}
+.review-item-block__graduation-data-author {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 20px;
+}
+.review-item-block__graduation-data-contract {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+}
+.review-item-block__graduation-data-date {
+    color: #898989;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.vote-stars {
+    color: #bdbdbd;
+    min-width: 87px;
+    cursor: default;
+}
+.vote-stars .active {
+    color: #ffbe00;
+}
+.vote-stars__star {
+    cursor: pointer;
+    transition: .2s ease;
+}
+.vote-stars__star:hover {
+    color: #ffbe00;
+}
+.active.vote-stars__star:hover {
+    color: #bdbdbd;
+}
+
+/*Новые звезды*/
+
+
+
+
+/*/Новые звезды*/
+
+        /*/Graduation data*/
+        /*Content*/
+.review-item-block__title {
+    color: #1377bd;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.review-item-block__content:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    margin-right: 2px;
+}
+.review-item-block__content:after {
+    content: "\f10e";
+    font-family: FontAwesome;
+    margin-left: 2px;
+}
+        /*/Content*/
+        /*More reviews*/
+.more-reviews {
+    text-align: center;
+    margin: 50px 0 62px;
+}
+.more-reviews__button {
+    text-align: center;
+}
+.more-reviews__button a {
+    color: #1377bd;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+        /*/More reviews*/
+    /*/Review item*/
+/*/Reviews*/
+
+
+
+

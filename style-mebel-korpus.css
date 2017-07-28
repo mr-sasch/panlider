@@ -1,0 +1,663 @@
+/* ----------- mebel korpus ----------- */
+.mebel-korpus {
+    margin: auto;
+}
+.mebel-korpus__chestn-otzivi {
+    height: 480px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.white-block__title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px; 
+}
+    /* Title row */
+.mebel-korpus__buy-in {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+    font-size: 16px;
+}
+.mebel-korpus__buy-in-installments-credit,
+.mebel-korpus__buy-in-installments {
+    display: block;
+    transition: .2s ease;
+}
+.mebel-korpus__buy-in-installments-credit:hover,
+.mebel-korpus__buy-in-installments:hover,
+.mebel-korpus__buy-in-installments-credit:focus,
+.mebel-korpus__buy-in-installments:focus {
+    color: #c20000;
+}
+.mebel-korpus .review__botton {
+    display: inline-block;
+    vertical-align: middle;
+    width: 176px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+    /*/ Title row */
+
+/*Top Slider*/
+
+
+    /*Позиция слайдера*/
+.mebel-korpus__slider-cell {
+    position: relative;
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+    
+    /*контейнер слайдера*/
+.mebel-korpus__slider {
+    text-align: right;
+    display: flex !important;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+    /*контейнер слайда*/
+.mebel-korpus__slider-item {
+    position: relative;   
+    
+    display: flex !important;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 8px 8px 8px 47px;
+    box-sizing: border-box;
+}
+
+    /*содержимое слайда*/
+.mebel-korpus__slider-item-left {
+    color: #fff;
+    line-height: 60px;
+} 
+.mebel-korpus__slider-item-right {
+    width: 42%;
+    width: 450px;
+    height: 287px;
+}
+    /*/содержимое слайда*/
+
+
+    /* ячейка */
+
+.mebel-korpus__slider-item-text-1 {
+    font-size: 53px;
+    font-weight: 400;
+} 
+.mebel-korpus__slider-item-text-2 {
+    font-size: 71px;
+    font-weight: 600;
+}
+.mebel-korpus__slider-item-text-3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.mebel-korpus__slider-item-button {
+    padding: 6px 9px;
+    border-radius: 3px;
+    background-color: #ffc306;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+        /* переопределение Slick Slider`а */
+.mebel-korpus__slider .slick-dots,
+.mebel-korpus__slider .slick-next, 
+.mebel-korpus__slider .slick-prev {
+    display: inline-block;
+    
+    /*display: none !important;*/
+}
+
+            /* Стрелки */
+.mebel-korpus__slider .slick-next {
+    top: initial;
+    transform: none;
+    right: initial;
+    z-index: 1000;
+    
+    float: right;
+    order: 4;
+}
+
+.mebel-korpus__slider .slick-prev {
+    top: initial;
+    transform: none;
+    right: initial;
+    left: initial;
+    z-index: 1000;
+    
+    right: -3px;
+    order: 2;
+}
+.mebel-korpus__slider .slick-next,
+.mebel-korpus__slider .slick-prev {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #7d7d7d;
+    opacity: 1;
+    transition: .2s ease;
+    
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+.mebel-korpus__slider .slick-next:hover,
+.mebel-korpus__slider .slick-prev:hover {
+    opacity: 1;
+    border: 1px solid #1377bd;
+    background-color: #1377bd;
+}
+.mebel-korpus__slider .slick-next:before,
+.mebel-korpus__slider .slick-prev:before {
+    content: '';
+    display: inline-block;
+    border-top: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    width: 14px;
+    height: 14px;
+    transition: .2s ease;
+    margin-top: -2px;
+}
+.mebel-korpus__slider .slick-next:before {
+    transform: rotate(45deg);
+    margin-right: 6px;
+}
+.mebel-korpus__slider .slick-prev:before {
+    transform: rotate(-135deg);
+    margin-left: 4px;
+}
+.mebel-korpus__slider .slick-next:hover:before,
+.mebel-korpus__slider .slick-prev:hover:before {
+    border-color: #fff;
+}
+            /*/ Стрелки */
+
+            /* Буллеты */
+.mebel-korpus__slider .slick-dots {
+    width: initial;
+    right: initial;
+    
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    -webkit-order: 3;
+    -moz-order: 3;
+    -ms-order: 3;
+    -o-order: 3;
+    order: 3;
+}
+.mebel-korpus__slider .slick-dots li button:before {
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #959595;
+    width: 12px;
+    height: 12px;
+    opacity: 1 !important;
+    top: 50%; left: 50%;    
+    transform: translate(-50%,-50%);
+    transition: .1s ease;
+}
+.mebel-korpus__slider .slick-dots li.slick-active button:before,
+.mebel-korpus__slider .slick-dots li button:hover:before,
+.mebel-korpus__slider .slick-dots li button:focus:before {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ffffff;
+    background-color: #1377bd;
+    opacity: 1;
+}
+.mebel-korpus__slider .slick-dots li {
+    margin: 0 2px;
+}
+            /*/ Буллеты */
+            /* Контейнер */
+.mebel-korpus__slider .slick-list.draggable {
+    position: relative; /*для выравнивания буллетов - absolute*/  
+    text-align: left;
+    order: 1;
+}
+            /*/ Контейнер */
+        /*/ переопределение Slick Slider`а */
+    /*/ слайдер */
+/*/ Top Slider*/
+
+/* Какую мебель мы делаем */
+    /* Заголовок */
+.mebel-korpus__furniture-top-row {
+    text-align: justify;
+}
+.mebel-korpus__furniture-top-title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+}
+.mebel-korpus .nav-tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    /*/ Заголовок */
+
+    /* Галерея */
+.baguetteBox-gallery__item-title {
+    width: 100%; height: 80px;
+    border-radius: 5px 5px 10px 10px;
+    background-color: rgba(26, 25, 29, 0.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 12px 30px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+    /*/ Галерея */
+
+    /* Табы */
+.mebel-korpus__furniture-top-tabs .nav-tabs {
+    border-bottom: none;
+}
+.mebel-korpus__furniture-top-tabs {
+    display: inline-block;
+}
+.mebel-korpus__furniture-top-row:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.mebel-korpus__furniture-top-tabs .nav-link {
+    font-size: 20px;
+    font-weight: 400;
+    color: #959595;
+    padding: 0 0 0 20px;
+    transition: .2s ease;
+}
+.mebel-korpus__furniture-top-tabs .nav-link:hover {
+    border-color: rgba(236, 238, 239, 0);
+    color: #1377bd;
+}
+.mebel-korpus__furniture-top-tabs .nav-link.active {
+    color: #1377bd;
+}
+.mebel-korpus__furniture-top-tabs .nav-link, 
+.mebel-korpus__furniture-top-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+}
+ .mebel-korpus__furniture-tab-content>.active {
+    display: flex;
+}
+    /*/ Табы */
+.mebel-korpus .baguetteBox-gallery__item-addition {
+    margin: 0 20px;
+}
+/*/ Какую мебель мы делаем */
+
+/* Why should you choose us */
+.mebel-korpus__why-us-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 70px 0 40px;
+}
+/*/ Why should you choose us */
+
+/* Преимущества нашей корпусной мебели */
+.mebel-korpus__preimusch {
+    overflow: auto;
+}
+.mebel-korpus__preimusch.white-block {
+    padding-bottom: 30px;
+    max-width: 1140px;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+.mebel-korpus__preimusch .white-block__title {
+    margin-bottom: 30px;
+}
+.mebel-korpus__preimusch-item {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    height: 160px;
+    margin-right: -4px;
+    vertical-align: top;
+    min-width: 320px;
+    display: inline-block;
+}
+.mebel-korpus__preimusch-item-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mebel-korpus__preimusch-item-content {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    height: 100%;
+}
+.mebel-korpus__preimusch-item-label {
+    width: 74px; height: 74px;
+    border-radius: 50%;
+    background-color: #1377bd;
+    position: absolute;
+}
+.mebel-korpus__preimusch-item-label-kak {
+    background-color: inherit;
+}
+.mebel-korpus__preimusch-item-img {
+    position: absolute;
+    top: 50%; left: 50%; 
+    transform: translate(-50%,-50%);
+}
+.mebel-korpus__preimusch-item-info {
+    margin-left: 95px;
+    margin-right: 35px;
+    /*width: 233px;*/
+    max-width: 233px;
+}
+.mebel-korpus__preimusch-item-title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 13px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.mebel-korpus__preimusch-item-text {
+    color: #717375;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.mebel-korpus__preimusch-item-list {
+    color: #717375;
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;    
+}
+.mebel-korpus__preimusch-item-list li {
+    margin-bottom: 9px;
+}
+.mebel-korpus__preimusch-item-list li:before {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #ffc909;
+    border-radius: 50%;
+    margin-right: 12px;
+    top: 1px;
+    position: relative;
+}
+/*/ Преимущества нашей корпусной мебели */
+
+/* Как мы работаем */
+.mebel-korpus__process {
+    margin: 35px 0 60px;
+}
+.mebel-korpus__process.mebel-korpus__preimusch {
+    overflow: visible;
+}
+.mebel-korpus__preimusch-items {
+    text-align: center;
+}
+
+.mebel-korpus__process .mebel-korpus__preimusch-item {
+    height: 114px;
+}
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top {
+    position: absolute;    
+}
+
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top {
+    right: 0;
+    top: -50px;
+}
+
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom {
+    right: 0;
+    bottom: -10px;
+}
+
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom {
+    display: none;
+} 
+
+.mebel-korpus__process-long-arrow {
+    clear: both;
+    padding-left: 27px;
+    padding-right: 330px;
+    margin-top: -40px;
+}
+.mebel-korpus__process-long-arrow-2 {
+    margin: 0 -5px;
+    width: calc(100% - 241px);
+    height: 79px;
+}
+.mebel-korpus__process-long-arrow-2-3 {
+    display: none;
+}
+
+.mebel-korpus__process-long-arrow-4-5 {
+    display: none;
+}
+.mebel-korpus__process .mebel-korpus__preimusch-item {
+    float: none;
+    display: inline-block;
+    margin-right: -5px;
+    vertical-align: top;
+}
+/*/ Как мы работаем */
+
+/* Получите подробную информацию */
+.mebel-korpus__more-info {
+    padding: 15px 60px 15px 70px;
+    border-radius: 3px;
+    background-color: #ffc306;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 76px;
+    margin-bottom: 76px;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.mebel-korpus__more-info-text {
+}
+.mebel-korpus__more-info-text-top {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.mebel-korpus__more-info-text-bottom {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.mebel-korpus__more-info-input {
+    width: 270px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mebel-korpus__more-info-input input[placeholder] {
+    color: #b1b1b1;
+}
+::-webkit-input-placeholder {color:#b1b1b1;}
+::-moz-placeholder          {color:#b1b1b1;}/* Firefox 19+ */
+:-moz-placeholder           {color:#b1b1b1;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#b1b1b1;}
+
+.mebel-korpus__more-info-button {
+    border-radius: 3px;
+    background-color: #c20000;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 20px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.mebel-korpus__more-info-button-text {
+    line-height: 14px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: none;
+}
+}
+/*/ Получите подробную информацию */
+
+/* Гарантия */
+.mebel-korpus__warranty {
+    margin-bottom: 76px;
+}
+.mebel-korpus__warranty .text-block__read-more .card-header {
+    text-align: left;
+    padding-left: 0;
+}
+.mebel-korpus__warranty.text-block {
+    margin: 50px 0;
+}
+/*/ Гарантия */
+
+/* Смотрите видео о нас */
+.mebel-korpus__video {
+    margin: 76px 0;
+}
+.mebel-korpus__video .videogallery {
+    margin-top: 0;
+}
+.mebel-korpus__video #lightgallery {
+    justify-content: space-around;
+}
+.mebel-korpus__video #lightgallery .mod_two-column-grid-fb__cell {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 49%;
+    margin-bottom: 20px;
+    animation-name: opacity-gallery;
+    animation-duration: 1s;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 247px;
+    width: 370px;
+}
+.mebel-korpus__video-container {
+    margin-bottom: 20px;
+}
+.mebel-korpus__video-about {
+    margin-top: -5px;
+    max-width: 370px;
+    line-height: 23px;
+}
+.mebel-korpus__video-about-title {
+    font-size: 18px;
+    font-weight: 600;  
+}
+.mebel-korpus__video-about-text {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+/*/ Смотрите видео о нас */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ ----------- mebel korpus ----------- */

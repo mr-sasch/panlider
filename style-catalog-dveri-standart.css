@@ -1,0 +1,27 @@
+/*Каталог - двери стандартные*/
+.dveri-standart__item-width {
+    width: 308px;
+}
+.dveri-standart__big-item-width {
+    max-width: 770px;
+}
+.dveri-standart__show-parameters {
+    text-align: right;
+    margin-top: 15px;
+}
+.dveri-standart__show-parameters-text {
+    display: inline-block;
+    color: #1377bd;
+}
+.dveri-standart__show-parameters-text i {
+    margin-right: 7px;
+}
+
+.cat-block-top__item-align-help-standart {
+    width: 340px !important;
+}
+
+
+
+
+/*/Каталог - двери стандартные*/

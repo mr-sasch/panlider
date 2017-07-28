@@ -1,0 +1,1118 @@
+/*1023px*/
+@media screen and (max-width: 1060px) {
+    .mod_two-column-grid-fb {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    
+    /* mobile menu */
+    .header-bottom-menu li {
+        position: relative;
+    }
+    .header-bottom-menu-search {
+        margin-right: 50px; 
+    }
+    
+    
+    
+    /*/ mobile menu */
+    
+    
+/*nav menu*/
+    
+/*
+.header-bottom-menu-search {
+    display: none;
+}
+*/
+    
+#search-page .header-bottom-menu-search {
+    display: block;
+}
+.header-bottom-menu__item {
+    border-right: none;
+}
+.container_header-bottom {
+    position: relative;
+    
+}
+.header-bottom-menu__item {
+    display: block;
+}    
+.header-bottom-menu {
+    background-color: #ebebeb;  
+    border: 1px solid #cca002;
+    border-radius: 3px;
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+    right: 7px;
+    left: 7px;
+    top: 37px;
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+}
+/*
+#mobile-menu_stroke-cross:checked ~ .header-bottom-menu {
+    max-height: 170px;
+    opacity: 1;
+} 
+*/
+.header-bottom-menu__item-company {
+    max-width: 100%;
+}
+/*
+#mobile-menu_stroke-cross:checked ~ .header-bottom-menu .header-bottom-menu__item-company {
+    opacity: 1;
+    padding: 2px 17px 2px 15px;
+}      
+*/
+.mobile-menu {
+    width: 35px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 3px;
+    text-align: center;
+}
+.mobile-menu_positioning {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;    
+}
+.mobile-menu__strokes {
+    height: 100%;
+    cursor: pointer;
+    width: 74%;
+    position: relative;
+    margin-top: -4px;
+}
+#mobile-menu_stroke-cross:checked ~ .mobile-menu .mobile-menu__strokes .mobile-menu__stroke-cross1 {
+    transform: rotate(45deg);
+    top: 18px;
+}
+#mobile-menu_stroke-cross:checked ~ .mobile-menu .mobile-menu__strokes .mobile-menu__stroke-cross2 {
+    transform: rotate(-45deg);
+}
+#mobile-menu_stroke-cross:checked ~ .mobile-menu .mobile-menu__strokes .mobile-menu__stroke-cross3 {
+    display: none;
+}    
+.mobile-menu__stroke {
+    height: 4px;
+    background: #000;
+    margin-bottom: 4px;
+    top: 9px;
+    position: relative;
+}
+.mobile-menu__stroke {
+    transition: .2s ease;
+}   
+/*/nav menu*/ 
+.doors-card__main {
+    flex-direction: column;
+    align-items: center;
+}
+.doors-card__main-images {
+    margin-bottom: 40px;
+}    
+}
+
+/*Корпусная мебель - Как мы работаем*/
+@media screen and (max-width: 1118px) {
+    #mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top {
+        display: none;
+    }
+    #mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom {
+        display: none;
+    }
+    .mebel-korpus__process-long-arrow-2-3 {
+        display: inherit;
+    }
+    .mebel-korpus__process-long-arrow-4-5 {
+        display: inherit;
+    }
+    .mebel-korpus__process-long-arrow {
+        margin: auto;
+        padding-right: 295px;
+        margin-top: -25px;
+        margin-bottom: 10px;
+        width: 365px;
+    }
+    .mebel-korpus__preimusch .white-block__title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    #mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top, #mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top, #mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, #mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, #mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, #mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top {
+        right: 0;
+        top: -60px;
+    }
+    #mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom, 
+    #mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
+    #mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
+    #mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom, 
+    #mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom, 
+    #mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom {
+        right: 0;
+        bottom: -20px;
+    }
+    .mebel-korpus__process-long-arrow-3-4 {
+        display: none;
+    }
+}
+@media screen and (max-width: 770px) {
+    .mebel-korpus__preimusch-item-arrow-bottom,
+    .mebel-korpus__preimusch-item-arrow-top {
+        display: none !important;
+    }
+    .mebel-korpus__process-long-arrow {
+        display: none;
+    }
+    .mebel-korpus__preimusch .white-block__title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+/*/Корпусная мебель - Как мы работаем*/
+
+@media screen and (max-width: 1010px) {
+    .mebel-korpus__slider {
+        max-width: 450px;
+        margin: auto;
+        justify-content: center;
+    }
+    .mebel-korpus__slider {
+        padding: 8px 8px 8px 8px;
+    }
+    .mebel-korpus__slider-item-left {
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .mebel-korpus__slider-item-text-1 {
+        font-size: 45px;
+    }
+    .mebel-korpus__slider-item {
+        padding: 8px;
+    }
+}
+
+
+@media screen and (max-width: 1260px) {
+/*top menu*/
+    .container_header-top {
+        flex-direction: row;
+    }
+    /*left*/
+    .header-top-menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+    }
+    /*center*/
+    .header-top-menu__clients-enter {
+        margin: 10px 0;
+    }
+    /*right*/
+    .container_header-top-right {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+}
+    
+@media screen and (max-width: 1150px) {
+/*top menu*/
+    .container_header-top {
+        flex-direction: column;
+    }
+    /*center*/
+    .header-top-menu__clients-enter {
+        order: -1;
+    }
+/*/top menu*/
+    .cat-block-top__item-big {
+        -webkit-order: -1;
+        -moz-order: -1;
+        -ms-order: -1;
+        -o-order: -1;
+        order: -1;
+    }
+    
+    .header-top-menu {
+        left: 0;
+        transform: none;
+    }
+    
+}    
+
+    
+/*.container_header-top-right {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+.header-top-menu_margin {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}    */
+/*/top menu*/
+
+
+/*Medium*/
+@media screen and (max-width: 992px) {
+.main-section__img {
+    width: 9vw;
+    }
+.main-section__text {
+    font-size: 3vw;
+    line-height: 4vw;
+    }
+.main-section__text p {
+    margin-bottom: 1vw;
+    }
+.hidden-menu-submenu-column_center {
+        text-align: center;
+    }
+.hidden-menu-submenu-column__title_after-align:after {
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.footer-socials__ul {
+    text-align: left;
+    padding: 0;
+    }
+.copywrite__developer-logo,
+.copywrite__developer {
+    text-align: center;
+    }
+}
+
+/*Small*/
+@media screen and (max-width: 768px) {
+.hidden-menu-submenu-column {
+    text-align: center;
+    }
+.hidden-menu-submenu-column__title:after {
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.copywrite__right {
+    top: 0;
+    margin-top: 10px;
+    }
+.copywrite__text, 
+.copywrite__site-map-block {
+    text-align: center;
+    }
+/*slider*/    
+.slider-text-block__title {
+    font-size: 6vw;
+    line-height: 8vw;
+    } 
+.slider-text-block_twenty {
+    font-size: 9vw;
+    }
+.slider-text-block__text {
+    margin: 1vw 0 2vw;
+    line-height: 6vw;
+    }
+.slider-text-block {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    top: 50%;
+    }
+.call-back_padding-slider {
+    padding: 2vw 10vw;
+    }
+.slider-side-block {
+display: none;
+    }
+/*/slider*/    
+}
+
+
+
+/* 700px */
+@media screen and (max-width: 700px) {
+    .doors-card__main-description-table-cell-1 {
+        padding-right: 0;
+    }    
+}
+/*/ 700px */
+
+
+/*Extra small*/
+@media screen and (max-width: 576px) {
+.main-section__img {
+    width: 15vw;
+    }
+.main-section__text {
+    font-size: 5vw;
+    line-height: 6vw;
+    }
+.main-section__text p {
+    margin-bottom: 4vw;
+    }
+#search-page .header-bottom-menu-search {
+    width: 100%;
+    }
+#search-page .header-bottom-menu-search input[type=text] {
+    width: 100%;
+    }    
+    
+.news-item .media {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    }    
+}
+
+/* 610px */
+@media screen and (max-width: 610px) {
+    .doors-card__main-description-table-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .doors-card__main-description-table-cell-2 {
+        border-top: none;
+    }
+    .doors-card {
+        padding: 0 5px;
+    }
+}
+/*/ 610px */
+
+/* 550px */
+@media screen and (max-width: 550px) {
+    .doors-card__similar-doors-carousel .owl-theme .owl-nav.disabled + .owl-dots {        
+        bottom: -50px;    
+    }
+    .cat-big-block {
+        text-align: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cat-big-block__img {
+        margin: 0 !important;
+        -ms-align-self: center;
+        align-self: center;
+    }
+    .cat-block-main__row {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/*/ 550px */
+
+/******************* CATALOG PAGE *******************/
+@media screen and (max-width: 1200px) {
+/*
+    .filter-item {
+    margin-top: 20px;
+    }
+*/
+/*
+    .cat-big-block {
+    margin-top: 70px;
+    }
+*/
+    .cat-block-top {
+    justify-content: space-around !important;
+    }
+    .cat-block-main__row {
+    justify-content: space-around !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cat-header__container {
+        flex-direction: column !important;
+    }
+    .cat-header__types {
+        margin: 30px 0 40px;
+        width: 100%;
+    }
+    .responsive__full-width.cat-header__types {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cat-header__types {
+    flex-direction: column !important;
+    align-items: center;
+    }
+    .cat-door-type {
+    margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .filter-items {
+    justify-content: space-around !important;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .cat-sort__show {
+    justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .mod_space-around {
+    flex-direction: column;
+    }
+    .cat-sort__by {
+    display: flex;
+    justify-content: center;
+    }
+    .cat-sort__show {
+    display: flex;
+    justify-content: center;
+    }
+    .cat-sort-actions-new-cont {
+    display: flex;
+    justify-content: center;
+    }
+    .cat-sort-pagination {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    #search-page .cat-sort-pagination {
+    justify-content: flex-start;
+    }
+    .cat-sort-by-title {
+    margin-right: 5px;
+    }
+    .cat-sort-pagination_bottom .cat-sort-pagination {
+    max-width: 160px;
+    }
+    .cat-sort-pagination_bottom {
+    justify-content: center;
+    }
+    .purchase-process {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .mod_margin-top-70 {
+    margin-top: 70px;
+    }    
+}
+
+/******************* /CATALOG PAGE *******************/
+
+/* header/footer */
+
+    /* Mobile menu */
+.mobile-menu__menu {
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    top: 100%;
+    color: #545454;
+    font-weight: 600;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px rgba(128, 128, 128, 0.59);
+    left: 10px; right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    max-height: 0;
+    border: 0px solid #b9b8b8;
+    padding: 0 11px;
+    opacity: 0;
+    transition: .3s ease;
+}
+#mobile-menu_stroke-cross:checked ~ .mobile-menu__menu {
+    border-width: 1px;
+    padding: 11px;    
+    opacity: 1;
+    max-height: 500px;
+}
+
+#mobile-sub-menu__okna,
+#mobile-sub-menu__dveri,
+#mobile-sub-menu__kompania {
+    display: none;
+}
+.mobile-menu__item-a {
+    color: #545454; 
+}
+
+.mobile-menu__item-sub-menu {
+    background-color: #fff;
+    border: 0px solid #b9b8b8;
+    padding: 11px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px rgba(128, 128, 128, 0.59);
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: .3s ease;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#mobile-sub-menu__okna:checked ~ .mobile-sub-menu__okna-sub-menu,
+#mobile-sub-menu__dveri:checked ~ .mobile-sub-menu__dveri-sub-menu,
+#mobile-sub-menu__kompania:checked ~ .mobile-sub-menu__kompania-sub-menu
+{
+    max-height: 500px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    opacity: 1;
+    border-width: 1px;
+}
+.mobile-menu__item {
+    margin-bottom: 0;
+    padding: 3px 0;
+}
+.mobile-menu__item-sub-menu-item {
+    padding: 3px 0;
+}
+.mobile-menu__chevron {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #bdbdbd;
+    transition: .2s ease;
+}
+#mobile-sub-menu__okna:checked ~ .mobile-menu__item .mobile-menu__chevron-okna,
+#mobile-sub-menu__dveri:checked ~ .mobile-menu__item .mobile-menu__chevron-dveri,
+#mobile-sub-menu__kompania:checked ~ .mobile-menu__item .mobile-menu__chevron-kompania
+{
+    transform: rotate(90deg);
+}
+    /*/ Mobile menu */
+
+    /* footer */
+.footer-responsive-font {
+    font-size: 12px;
+}
+    /*/ footer */
+
+@media screen and (max-width: 600px) {
+
+    .mobile-hide {
+        display: none !important;
+    }
+    .container_header-top-right {
+        justify-content: space-between;
+    }
+    
+    
+    .call-back_margin-left {
+        margin: 10px 0px !important;
+    }
+    .header-top-menu-phones {
+        margin-left: 0px;
+    }
+    
+    .footer-logo-text {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .footer-contacts {
+        margin-bottom: 10px;
+    }
+    .footer-forms__button {
+        margin-bottom: 26px;
+        margin-top: 10px;
+    }
+    .footer-socials {
+        margin-bottom: 15px;
+    }
+    
+    .copywrite__site-map-block {
+        order: 1;
+        text-align: left;
+    }
+    .copywrite__confidential {
+        order: 2;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .copywrite__text {
+        order: 3;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    
+    /* padding`и в на мобильном разрешении */
+    .cs-max-width {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .mobile-menu_positioning {
+        right: 5px;
+    }
+    /* /padding`и в на мобильном разрешении */
+}
+
+@media screen and (max-width: 1140px) {
+    .mobile-hide_early {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    /* размеры шрифтов */
+    .header-top-menu-phones {
+        font-size: 18px;
+    }
+    .call-back {
+        font-size: 12px;
+    }
+    .footer-responsive-font {
+        font-size: 15px;
+    }
+    /*/ размеры шрифтов */
+}
+
+@media screen and (max-width: 350px) {
+    .footer-forms__button {
+        width: 100%; 
+        text-align: center;
+        padding: 10px;
+    }
+    
+
+    
+    /* социальные сети в футере */
+    .footer-socials__li-svg {
+        padding: 11px;
+        width: 23px;
+        margin: -5px 2px 5px;
+
+    }
+    .footer-socials__ul {
+        text-align: center;
+    }
+    /*/ социальные сети в футере */
+}
+/* /header/footer */
+
+
+/*********** Header - II ***********/
+
+/* 650px */
+@media screen and (max-width: 650px) {
+
+    .responsive__full-width.review__container {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 20px;
+        -ms-align-items: center;
+        align-items: center;
+    }
+    .review__botton {
+        top: inherit;
+        -webkit-transform: inherit;
+        -ms-transform: inherit;
+        -o-transform: inherit;
+        transform: inherit;
+        align-self: center;
+    }
+    
+}
+/*/ 645px */
+
+/* 460px */
+@media screen and (max-width: 460px) {
+    .review__botton-block {
+        flex-direction: column;
+    }
+    .review__botton {
+        margin-top: 13px;
+    }
+    .mebel-korpus__buy-in {
+        margin-right: 0;
+        text-align: center;
+        align-self: center;
+    }
+    .okna-full__okna-furnitura {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cat-door-type {
+        margin-bottom: 20px !important;
+    }
+}
+
+
+
+/*/ 460px */
+
+/*********** /Header - II ***********/
+
+
+/*********** okna-full-width ***********/
+@media screen and (max-width: 350px) {
+    .okna-full__item-width {
+        width: 100%; 
+        max-height: 345px;
+    }
+    .cat-block-top__item-img {
+        width: 100% !important;
+    }
+    .cat-block-top__item-align {
+        height: 360px;
+    }
+    .mebel-korpus__preimusch-item {
+        min-width: 100%;
+        margin-bottom: 40px;
+        margin-bottom: 40px; 
+        height: inherit !important;
+    }
+    .mebel-korpus__preimusch-item-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mebel-korpus__preimusch-item-info {
+        margin-left: 0; 
+        margin-right: 0; 
+        text-align: center;
+    }
+    .mebel-korpus__preimusch-item-label {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .mebel-korpus__preimusch-item-label-kak {
+        position: relative; 
+        top: inherit; 
+        left: inherit; 
+        transform: none; 
+    }
+    .okna-full__slider-otzivi--vse-otzivi {
+        bottom: 9px;
+    }
+    
+}
+/*********** /okna-full-width ***********/
+
+
+
+
+/*********** dveri - standart ***********/
+.filter-item.filter-item__pvh {
+    margin-bottom: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-items {
+    justify-content: center;
+}
+.cat-filter__grey {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 990px) {
+    .filter-item__light-border {
+        margin-right: 0; 
+        margin-top: 10px;
+    }
+    .dveri-pvh.cat-filter {
+        padding-bottom: 40px;
+    }
+    .filter-item__nestandart {
+    }
+    .cat-filter__grey {
+        margin-left: 0;
+        flex-wrap: wrap;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cat-filter__grey {
+        justify-content: center;
+    }    
+    .filter-item__light-border {
+        justify-content: center;
+    }
+    .filter-item__standart,
+    .filter-item__grey-cell-form {
+        margin: 0 21px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cat-filter__grey {
+        flex-direction: column;
+    }
+    .filter-item__metall {
+        margin-bottom: 10px;
+    }
+    .filter-item__light-border {
+        flex-direction: column;
+    }
+    .filter-item__standart,
+    .filter-item__grey-cell-form {
+        margin: 5px 21px;
+    }
+    .cat-filter-hidden__params-filter {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cat-filter-hidden__form {
+        margin-bottom: 0;
+    }
+    .cat-filter-hidden__params-reset {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .cat-filter-hidden__title {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .cat-filter-hidden__hide {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .dveri-standart__item-width {
+        box-sizing: border-box;
+    }
+    .dveri-standart__item-width-standart {
+        max-height: 430px;
+    }
+    .cat-block-top__item-standart {
+        height: 430px;
+    }
+}
+
+/*********** /dveri - standart ***********/
+
+
+/*********** dveri - NE-standart ***********/
+@media screen and (max-width: 1200px) {
+    .nestandart-where-img-block {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .catalog-block-title.dveri-pvh-nestandart {
+        flex-wrap: wrap; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nestandart-rolstavni-image {
+        margin-right: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 520px) {
+    .cat-block-top__item--nestandart {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cat-block-top__item-img-nestandart {
+        width: initial !important;
+    }
+} 
+/*********** /dveri - NE-standart ***********/
+
+
+
+
+
+/*********** Новости ***********/
+@media screen and (max-width: 400px) {
+    .media__img {
+        width: 100%;
+    }
+    .review__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-sort-by-date {
+        height: 30px;
+    }
+}
+
+
+
+/*********** /Новости ***********/
+
+
+
+/*********** Натяжные потолки ***********/
+@media screen and (max-width: 700px) {
+    .mebel-potolki__resheniya-tab-content {
+        flex-wrap: wrap;
+    }
+    .mebel-potolki__resheniya-tab-left {
+        padding-bottom: 30px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .mebel-potolki__resheniya-tab-right {
+        width: 100%;
+    }
+    .mebel-potolki__interior .image-box img {
+        position: relative; 
+    }
+}
+
+
+
+
+
+
+/*********** /Натяжные потолки ***********/
+
+
+/*********** Двери ***********/
+@media screen and (max-width: 1070px) {
+    .dveri-pvh__image-and-text {
+        flex-direction: column;
+    }
+    .dveri-pvh__image {
+        align-self: center;
+    }
+    .dveri-pvh__text {
+        padding: 30px 40px 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .dveri-pvh__image-and-text-items {
+        flex-direction: column;
+    }
+    .dveri-pvh__image-and-text {
+        width: 100%;
+    }
+}
+/*********** /Двери ***********/
+
+/* Двери - Карточка товара */
+@media screen and (max-width: 330px) {
+    .doors-card__main-images {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .doors-card__similar-doors-carousel .cat-block-top__item-img {
+        width: initial !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .doors-card__tooltip {
+        display: none;
+    }
+    .doors-card__main-description-buy .doors-card__main-description-table-cell-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: inherit;
+    }
+    .doors-card__buy-button {
+        margin: 6px 6px;
+    }
+    .doors-card__share i {
+        margin: 8px;
+    }
+/* модальное окно */
+    .modal-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .modal-content__right {
+        align-items: center;
+        margin: 0;
+    }
+/*/ модальное окно */
+}
+
+@media screen and (max-width: 500px) {
+    .doors-card__description-item-icon {
+        display: none;
+    }
+    .doors-card__description-item-text-block {
+        width: 100%;
+    }
+    .doors-card_bg-white {
+        padding: 50px 10px 5px;
+    }
+    .doors-card__description-item-text-block {
+        margin-left: 0;
+    }
+}
+
+
+/*/ Двери - Карточка товара */
+
+

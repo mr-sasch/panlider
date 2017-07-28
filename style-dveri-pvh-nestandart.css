@@ -1,0 +1,118 @@
+/*Двери ПВХ - нестандартные*/
+.dveri-pvh-nestandart .filter-item.filter-item__pvh {
+    border: 1px solid #959595;
+    background-color: #fff;
+    color: #959595;
+}
+.filter-item__metall,
+.filter-item__metall-arrow,
+.filter-item__nestandart {
+    background-color: #1377bd;
+    color: #fff;
+}
+.catalog-block-title.dveri-pvh-nestandart {
+    display: flex;
+}
+.catalog-block-title.dveri-pvh-nestandart .cat-filter-btn {
+    width: 500px;
+    max-width: 320px;
+}
+.dveri-pvh-nestandart .white-block__title {
+    text-align: left;
+}
+.nestandart-where-img-block {
+    display: flex;
+    justify-content: space-between;
+}
+.nestandart-where-img {
+    position: relative;
+    margin-bottom: 120px;
+}
+.nestandart-where-img-title {
+    position: absolute;
+    bottom: 0;
+    color: #fffefe;
+    font-size: 30px;
+    padding-left: 36px;
+    padding-bottom: 15px;
+    background-color: rgba(26, 25, 29, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.nestandart-where-image {
+    width: 100%;
+}
+.dop-vozm-image {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+/* Слайдер алюминиевые входные двери */
+    /*выравнивание ячейки*/
+.alum-door-slider-cell {
+    position: relative;
+    width: 272px;
+    height: 310px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+    /*/выравнивание ячейки*/
+
+    /*переопределение слайдера*/
+.alum-door-slider .slick-next:before {
+    content: '\f054';
+    color: #000;
+    font-family: FontAwesome;
+}
+.alum-door-slider .slick-prev:before {
+    content: '\f053';
+    color: #000;
+    font-family: FontAwesome;
+}
+.alum-door-slider .slick-next.slick-arrow {
+    right: 4px;
+}
+.alum-door-slider .slick-prev.slick-arrow {
+    left: 4px;
+    z-index: 10;
+}
+
+    /*/переопределение слайдера*/
+
+/*/ Слайдер алюминиевые входные двери */
+
+.nestandart-where-img-descripton {
+    position: absolute;
+    top: 105%;
+}
+.nestandart-exclamation-img {
+    margin-right: 15px;
+    margin-left: -15px;
+}
+.nestandart-rolstavni-image {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.nestandart-uznat-stoimost {
+    float: none;
+    margin-top: 20px;
+    padding: 1px 5px;
+}
+ul.dveri-pvh__popular-models.dveri-pvh-nestandart {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text-block.container.dveri-pvh-nestandart {
+    margin-bottom: 100px;
+}
+.nestandart-rolstavni-img {
+    width: 100%;
+}
+
+
+/*/Двери ПВХ - нестандартные*/

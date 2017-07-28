@@ -1,0 +1,484 @@
+/*Окна ПВХ - полная ширина*/
+.okna-full__okna-furnitura {
+    display: flex;
+    justify-content: center;
+}
+.review__botton img {
+    margin-right: 8px;
+}
+.okna-full__item-width {
+    width: 340px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.okna-full__item-price {
+    text-transform: inherit;
+    font-size: 14px;
+    margin-top: -14px;
+}
+.okna-full__gallery__block {
+    justify-content: center;
+}
+.okna-full__gallery__item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mebel-korpus__more-info-full {
+    width: 100%;
+    background-color: #ffc306;
+}
+.okna-full__chestn-otzivi {
+    background-color: #fff;
+}
+.okna-pvh__text-body {
+    margin-bottom: 0;
+}
+
+/*Slider - top*/
+
+/*Врем*/
+/*
+.okna-full__slider-image {
+    width: 100%;
+}
+*/
+
+.okna-full__slider-img.okna-full__slider-img-block {
+    width: 1920px;
+    max-width: 100%;
+    height: 310px;
+    position: relative;
+    display: block;
+}
+/*/Врем*/
+
+.okna-full__slider-cell {
+    position: relative;
+    margin-top: 33px;
+    padding-bottom: 30px;
+}
+.okna-full__slider-img {
+    width: 100%;
+}
+            /* Контейнер */
+.okna-full__slider .slick-list.draggable {
+    position: relative; /*для выравнивания буллетов - absolute*/  
+    text-align: left;
+    order: 1;
+}
+.okna-full__slider.slick-slider {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+            /*/ Контейнер */
+            /* Стрелки */
+
+.okna-full__slider .slick-dots,
+.okna-full__slider .slick-next, 
+.okna-full__slider .slick-prev {
+    display: inline-block;
+}
+
+
+.okna-full__slider .slick-next {
+    top: initial;
+    transform: none;
+    right: initial;
+    z-index: 1000;
+    
+    float: right;
+    order: 4;
+}
+
+.okna-full__slider .slick-prev {
+    top: initial;
+    transform: none;
+    right: initial;
+    left: initial;
+    z-index: 1000;
+    
+    right: -3px;
+    order: 2;
+}
+.okna-full__slider .slick-next,
+.okna-full__slider .slick-prev {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #7d7d7d;
+    opacity: 1;
+    transition: .2s ease;
+    
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+.okna-full__slider .slick-next:hover,
+.okna-full__slider .slick-prev:hover {
+    opacity: 1;
+    border: 1px solid #1377bd;
+    background-color: #1377bd;
+}
+.okna-full__slider .slick-next:before,
+.okna-full__slider .slick-prev:before {
+    content: '';
+    display: inline-block;
+    border-top: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    width: 14px;
+    height: 14px;
+    transition: .2s ease;
+    margin-top: -2px;
+}
+.okna-full__slider .slick-next:before {
+    transform: rotate(45deg);
+    margin-right: 6px;
+}
+.okna-full__slider .slick-prev:before {
+    transform: rotate(-135deg);
+    margin-left: 4px;
+}
+.okna-full__slider .slick-next:hover:before,
+.okna-full__slider .slick-prev:hover:before {
+    border-color: #fff;
+}
+            /*/ Стрелки */
+
+            /* Буллеты */
+.okna-full__slider .slick-dots {
+    width: initial;
+    right: initial;
+    
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    -webkit-order: 3;
+    -moz-order: 3;
+    -ms-order: 3;
+    -o-order: 3;
+    order: 3;
+}
+.okna-full__slider .slick-dots li button:before {
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #959595;
+    width: 12px;
+    height: 12px;
+    opacity: 1 !important;
+    top: 50%; left: 50%;    
+    transform: translate(-50%,-50%);
+    transition: .1s ease;
+}
+.okna-full__slider .slick-dots li.slick-active button:before,
+.okna-full__slider .slick-dots li button:hover:before,
+.okna-full__slider .slick-dots li button:focus:before {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ffffff;
+    background-color: #1377bd;
+    opacity: 1;
+}
+.okna-full__slider .slick-dots li {
+    margin: 0 2px;
+}
+            /*/ Буллеты */
+
+    /*Slider - top - Content*/
+.okna-full-review__botton {
+    width: 200px !important;
+}
+.okna-full__slider-item {
+    position: relative;
+}
+.okna-full__slider-item-text {
+    position: absolute;
+    max-width: 1000px;
+    width: 100%;
+    height: 84%;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 30px;
+}
+.okna-full__slider-item-text-row1 {
+    font-size: 53px;
+    line-height: 65px;
+}
+.okna-full__slider-item-text-row2 {
+    font-size: 53px;
+    line-height: 65px;
+    margin-top: -12px;
+}
+.okna-full__slider-item-text-row3 {
+    margin-top: -30px;
+}
+.okna-full__price-text {
+    font-size: 53px;
+    font-weight: 700;
+}
+.okna-full__price {
+    font-size: 71px;
+    font-weight: 700;
+    color: #ff0000;
+}
+.okna-full__price-zero {
+    color: #ff0000;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+    vertical-align: top;
+    line-height: 86px;
+}
+.okna-full__price-unit {
+    font-size: 41px;
+    font-weight: 400;
+}
+.okna-full__slider-button {
+    border-radius: 3px;
+    background-color: #ffc306;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+    /*/Slider - top - Content*/
+/*/Slider - top*/
+
+/*Честные отзывы наших клиентов*/
+.chestn-otzivi-item {
+    /*max-width: 370px;*/
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 119, 189, 0);
+    background-color: #f0f0f0;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: .3s ease;
+    margin: 0 10px;
+}
+.chestn-otzivi-item:hover {
+    border: 1px solid rgba(19, 119, 189, 1);
+}
+.chestn-otzivi-item__author {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.chestn-otzivi-item__author-foto {
+    padding-right: 20px;
+}
+.chestn-otzivi-item__author-info-name {
+    font-size: 14px;
+}
+.chestn-otzivi-item__author-info-date {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.chestn-otzivi-item__author-info-adress {
+    font-size: 13px;
+}
+.chestn-otzivi-item__author-info-dogovor {
+    font-size: 13px;
+}
+.chestn-otzivi-item__author-info-pokupka {
+    font-size: 13px;
+}
+.chestn-otzivi-item__text {
+    font-size: 14px;
+    margin: 30px 0 18px;
+}
+.chestn-otzivi-item__read-more {
+    color: #1377bd;
+    cursor: pointer;
+}
+
+    /* Контейнер - Отзывы */
+.okna-full__slider-otzivi .slick-list.draggable {
+    position: relative; /*для выравнивания буллетов - absolute*/  
+    text-align: left;
+    order: 1;
+}
+.okna-full__slider-otzivi.slick-slider {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    /*/ Контейнер - Отзывы */
+    /* Стрелки - Отзывы */
+
+.okna-full__slider-otzivi .slick-dots,
+.okna-full__slider-otzivi .slick-next, 
+.okna-full__slider-otzivi .slick-prev {
+    display: inline-block;
+}
+
+
+.okna-full__slider-otzivi .slick-next {
+    top: initial;
+    transform: none;
+    right: initial;
+    z-index: 1000;
+    
+    float: right;
+    order: 4;
+}
+
+.okna-full__slider-otzivi .slick-prev {
+    top: initial;
+    transform: none;
+    right: initial;
+    left: initial;
+    z-index: 1000;
+    
+    right: -3px;
+    order: 2;
+}
+.okna-full__slider-otzivi .slick-next,
+.okna-full__slider-otzivi .slick-prev {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #7d7d7d;
+    opacity: 1;
+    transition: .2s ease;
+    
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+.okna-full__slider-otzivi .slick-next:hover,
+.okna-full__slider-otzivi .slick-prev:hover {
+    opacity: 1;
+    border: 1px solid #1377bd;
+    background-color: #1377bd;
+}
+.okna-full__slider-otzivi .slick-next:before,
+.okna-full__slider-otzivi .slick-prev:before {
+    content: '';
+    display: inline-block;
+    border-top: 1px solid #7d7d7d;
+    border-right: 1px solid #7d7d7d;
+    width: 14px;
+    height: 14px;
+    transition: .2s ease;
+    margin-top: -2px;
+}
+.okna-full__slider-otzivi .slick-next:before {
+    transform: rotate(45deg);
+    margin-right: 6px;
+}
+.okna-full__slider-otzivi .slick-prev:before {
+    transform: rotate(-135deg);
+    margin-left: 4px;
+}
+.okna-full__slider-otzivi .slick-next:hover:before,
+.okna-full__slider-otzivi .slick-prev:hover:before {
+    border-color: #fff;
+}
+            /*/ Стрелки - Отзывы */
+
+            /* Буллеты - Отзывы */
+.okna-full__slider-otzivi .slick-dots {
+    width: initial;
+    right: initial;
+    
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    -webkit-order: 3;
+    -moz-order: 3;
+    -ms-order: 3;
+    -o-order: 3;
+    order: 3;
+}
+.okna-full__slider-otzivi .slick-dots li button:before {
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #959595;
+    width: 12px;
+    height: 12px;
+    opacity: 1 !important;
+    top: 50%; left: 50%;    
+    transform: translate(-50%,-50%);
+    transition: .1s ease;
+}
+.okna-full__slider-otzivi .slick-dots li.slick-active button:before,
+.okna-full__slider-otzivi .slick-dots li button:hover:before,
+.okna-full__slider-otzivi .slick-dots li button:focus:before {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ffffff;
+    background-color: #1377bd;
+    opacity: 1;
+}
+.okna-full__slider-otzivi .slick-dots li {
+    margin: 0 2px;
+}
+            /*/ Буллеты - Отзывы */
+
+.okna-full__slider-otzivi--vse-otzivi {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+}
+/*/Честные отзывы наших клиентов*/
+
+/*Пластиковые окна*/
+.plastic-windows__full-width-gallery-items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.plastic-windows__gull-width-hover-eye-block {
+    position: absolute;
+    left: 62px;
+    right: 62px;
+    top: 165px;
+    opacity: 0;
+    transition: .3s ease;
+    z-index: 10;
+}
+.okna-full__item-width:hover .plastic-windows__gull-width-hover-eye-block {
+    opacity: 1;
+}
+
+.plastic-windows__gull-width-hover-eye {
+    
+}
+/*/Пластиковые окна*/
+
+/*Карточка товара*/
+button#previous-button:focus,
+button#next-button:focus {
+    outline: none;
+    background: none;
+}
+button#previous-button,
+button#next-button {
+    outline: none;
+    background: none;
+}
+
+
+/*/Карточка товара*/
+
+/*/Окна ПВХ - полная ширина*/

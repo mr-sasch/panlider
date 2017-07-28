@@ -1,0 +1,274 @@
+/* Двери ПВХ */
+
+/*Шапка*/
+.cat-header__container-door-types {
+    justify-content: center;
+    margin-top: 20px;
+}
+.cat-header__container-door-types .cat-door-type {
+    margin: 10px 25px;
+}
+
+    /*кнопка Заказать замер*/
+.dveri-pvh__zakazat-zamer {
+    padding: 0;
+}
+img.dveri-pvh__zakazat-zamer-img {
+    margin-right: 5px;
+}
+    /*/кнопка Заказать замер*/
+
+    /*Переключение типов дверей*/
+.dveri-pvh .cat-door-type {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    max-width: inherit;
+    width: 210px;
+}
+.dveri-pvh .cat-door-type:hover,
+.dveri-pvh .cat-door-type.active {
+    border-color: #1377bd;
+    background-color: #1377bd;
+    color: #fff;
+}
+.dveri-pvh .cat-door-type__img {
+    margin-right: 19px;
+}
+    /*/Переключение типов дверей*/
+
+    /*Купить в рассрочку и кредит*/
+.kupit-rassrochka-kredit {
+    color: #1377bd;
+}
+.kupit-rassrochka,
+.kupit-kredit {
+    cursor: pointer;
+}
+.kupit-rassrochka:hover,
+.kupit-kredit:hover {
+    text-decoration: underline;
+}
+.kupit-rassrochka.active,
+.kupit-kredit.active {
+    color: #c20000;
+}
+    /*/Купить в рассрочку и кредит*/
+
+    /*Фильтр*/
+.filter-item_white.filter-item__pvh {
+    border: 1px solid #959595;
+}
+.filter-item_white,
+.filter-item_white .filter-item__metall-arrow {
+    background-color: #fff !important;
+    color: #959595 !important;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.filter-item_white:hover,
+.filter-item_white:hover .filter-item__metall-arrow {
+    background-color: #1377bd !important;
+    color: #fff !important;
+}
+.filter-item_white.active,
+.filter-item_white.active .filter-item__metall-arrow {
+    background-color: #1377bd !important;
+    color: #fff !important;
+}
+
+
+
+.filter-item.filter-item__pvh {
+    background-color: #1377bd;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 64px;
+    justify-content: center;
+}
+.dveri-pvh.cat-filter {
+    padding: 19px 21px;
+}
+
+.cat-filter__grey {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 17px;
+    color: #959595;
+    
+    border-radius: 3px;
+    border: 1px solid #959595;
+    background-color: #959595;
+}
+.filter-item__metall {
+    display: flex;
+    background-color: #fff;
+    height: 100%;
+    padding: 0 30px;
+    align-items: center;
+    border-radius: 3px;
+    position: relative;
+    height: 64px;
+}
+.filter-item__metall-arrow {
+    position: absolute;
+    height: 16px; width: 16px;
+    right: -8px;
+    top: 50%; transform: translateY(-50%) rotate(45deg);
+    background-color: #fff;
+}
+
+.filter-item__light-border {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #d7d7d7;
+    padding: 7px;
+    margin-right: 10px;
+}
+.filter-item__grey-cell {
+    width: 201px;
+    max-width: 201px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #959595;
+    background-color: #ffffff;
+    padding-left: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.filter-item__grey-cell-form {
+    padding-left: 0px;
+}
+.filter-item__grey-cell-form .filter-item-select {
+    width: 200px;
+    padding: 0 13px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    height: 100%;
+    color: #959595;
+    font-size: 1rem;
+}
+.filter-item__nestandart {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.filter-item__standart {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+    /*/Фильтр*/
+
+    /*Карточки товара*/
+.cat-block.dveri-pvh {
+    margin-top: -10px;    
+}
+.dveri-pvh .cat-block-top__item-align {
+    animation-name: opacity-gallery;
+    animation-duration: 2s;
+}
+#dveri-pvh__view-more {
+    color: #1377bd;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer; 
+    display: inline-block;
+    padding: 0;
+    min-width: 100px;
+    width: 130px;
+}
+.dveri-pvh .mod_margin-top-50 {
+    margin-top: 20px;
+}
+#dveri-pvh__view-more .fa-long-arrow-down {
+    margin-left: 10px;
+}
+.dveri-pvh .cat-sort-pagination_bottom {
+    text-align: right;
+}
+    /*/Карточки товара*/
+
+    /*Текстовый блок*/
+.text-block__text-body {
+    margin-bottom: 50px;
+}
+.dveri-pvh__popular-models {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+ul.dveri-pvh__popular-models li:before {
+    content: "-";
+    margin-right: 5px;
+}
+.dveri-pvh__image-and-text-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dveri-pvh__image-and-text {
+    display: flex;
+    width: 50%;
+    margin-bottom: 70px;
+}
+.dveri-pvh__image {
+    width: 160px;
+    min-width: 160px;
+}
+.dveri-pvh__text {
+    padding: 0 80px 0 40px;
+}
+.dveri-pvh__image5 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.dveri-pvh__image-img5 {
+    width: 100%;
+}
+.dveri-pvh__vidi-ruchek-skob-item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+.dveri-pvh__vidi-ruchek-skob-item-title {
+    margin-top: 10px;
+}
+.dveri-pvh__vidi-ruchek-skob-items {
+    margin-bottom: 60px;
+}
+.dveri-pvh__classic-ruchki-img {
+    margin-bottom: 100px;
+}
+.dveri-pvh__image8 {
+    width: 100%;
+}
+    /*/Текстовый блок*/
+
+/*/Шапка*/
+
+
+
+
+
+
+
+
+
+
+
+/*/ Двери ПВХ */
