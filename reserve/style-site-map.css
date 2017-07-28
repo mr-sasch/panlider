@@ -1,0 +1,56 @@
+/* Карта сайта */
+.site-map__first-level {
+    list-style: none;
+    padding-left: 0;
+}
+.site-map__first-level li {
+    font-size: 18px;
+    font-weight: 600;
+}
+.site-map__second-level {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.site-map__second-level li {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.site-map__first-level a {
+    text-decoration: none;
+    color: #000;
+    transition: .2s ease;
+}
+.site-map__first-level a:hover {
+    color: #1377bd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ Карта сайта */

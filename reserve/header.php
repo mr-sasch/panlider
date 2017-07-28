@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Профспецпласт</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font-awesome-4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">        
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-catalog.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-reviews.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-about-company.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-news.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-news-single.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-not-found.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-vacancies.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-gallery-photo.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-gallery-video.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-search.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-payment.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/page-catalog-card.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-mebel-korpus.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-mebel-potolki.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-mebel-okna.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-site-map.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">  
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/baguetteBox-photoGallery/baguetteBox.css">
+    
+<!-- owl carousel -->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/owl-carousel/owl.theme.default.css">
+<!--/ owl carousel -->
+   
+<!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!--/ jquery -->
+    
+<!-- photo gallery -->
+    <script src="<?php echo get_template_directory_uri(); ?>/baguetteBox-photoGallery/baguetteBox.js"></script>
+<!--/ photo gallery -->
+   
+<!--slick slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+<!--/slick slider-->
+    
+<!-- Preloader -->    
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-preloader.css">
+    <div class="loader-page">
+        <div class="loader-container">
+            <div class="loader">Loading...</div>
+        </div>
+    </div>
+<!--/ Preloader -->
+    
+    <?php wp_head(); ?>    
+</head>
+
+<body> 
+            
+    <header>
+<!--header-->
+    <!--header-top-->
+        <div class="row_header-top">
+            <div class="container_header-top cs-max-width">
+            <!-- LEFT -->
+                <ul class="header-top-menu header-top-menu_margin">
+                    <a href="/psp-wp/новости/"><li class="header-top-menu__item">Новости</li></a>
+                    <a href="/psp-wp/404-2/"><li class="header-top-menu__item">Услуги</li></a>
+                    <a href="/psp-wp/404-2/"><li class="header-top-menu__item">Уцененные товары</li></a>
+                <!--Заказать замер - Bootstrap-->
+                    <li class="header-top-menu__item" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">Заказать замер</li>
+                <!--/Заказать замер - Bootstrap-->                    
+                </ul>
+            <!--/ LEFT -->
+                
+            <!-- CENTER -->
+                <div class="header-top-menu__clients-enter" data-toggle="modal" data-target="#vhod-dlya-klientov" data-whatever="@mdo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__clients-enter.png" alt="" class="header-top-menu__img">
+                    <div class="header-top-menu__text">Вход<br>для клиентов</div>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="form-control-label">Recipient:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="form-control-label">Message:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--/ CENTER -->
+                
+            <!-- RIGHT -->
+                <div class="container_header-top-right">
+                    <div class="header-top-menu__work-time">
+                        <div class="header-top-menu__schedule">09:00 - 20:00</div>
+                        <div class="header-top-menu__day-blocks">
+                            <div class="header-top-menu__day-block"></div>
+                            <div class="header-top-menu__day-block"></div>
+                            <div class="header-top-menu__day-block"></div>
+                            <div class="header-top-menu__day-block"></div>
+                            <div class="header-top-menu__day-block"></div>
+                            <div class="header-top-menu__day-block header-top-menu__day-block_holidays"></div>
+                            <div class="header-top-menu__day-block header-top-menu__day-block_holidays"></div>
+                        </div>
+                    </div>
+
+                <!-- Выпадающие телефоны -->
+                    <div class="header-top-menu-phones">
+                        <input type="checkbox" name="header-top-menu-phones__phone-top" id="header-top-menu-phones__phone-top">
+                        <label for="header-top-menu-phones__phone-top" class="header-top-menu-phones__phone-top">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__phones.png" alt="" class="header-top-menu-phones__handset">
+                            <div class="header-top-menu-phones__phone-number">
+                                <div class="header-top-menu-phones__code">+375(29)</div>
+                                <div class="header-top-menu-phones__numder">757-9-707</div>
+                                <div class="header-top-menu-phones__underline"></div>
+                            </div>
+                        </label>       
+
+                        <div class="header-top-menu-phones__all-phones">
+                            <div class="header-top-menu-phones__all-phones-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__phones.png" alt="" class="header-top-menu-phones__handset">
+                                <div class="header-top-menu-phones__phone-number">
+                                    <div class="header-top-menu-phones__code">+375(29)</div>
+                                    <div class="header-top-menu-phones__numder">757-9-707</div>
+                                    <div class="header-top-menu-phones__underline"></div>
+                                </div>
+                            </div>
+                            <div class="header-top-menu-phones__all-phones-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__phones.png" alt="" class="header-top-menu-phones__handset">
+                                <div class="header-top-menu-phones__phone-number">
+                                    <div class="header-top-menu-phones__code">+375(29)</div>
+                                    <div class="header-top-menu-phones__numder">757-9-707</div>
+                                    <div class="header-top-menu-phones__underline"></div>
+                                </div>
+                            </div>
+                            <div class="header-top-menu-phones__all-phones-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__phones.png" alt="" class="header-top-menu-phones__handset">
+                                <div class="header-top-menu-phones__phone-number">
+                                    <div class="header-top-menu-phones__code">+375(29)</div>
+                                    <div class="header-top-menu-phones__numder">757-9-707</div>
+                                    <div class="header-top-menu-phones__underline"></div>
+                                </div>
+                            </div>
+                            <div class="header-top-menu-phones__all-phones-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__phones.png" alt="" class="header-top-menu-phones__handset">
+                                <div class="header-top-menu-phones__phone-number">
+                                    <div class="header-top-menu-phones__code">+375(29)</div>
+                                    <div class="header-top-menu-phones__numder">757-9-707</div>
+                                    <div class="header-top-menu-phones__underline"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--/ Выпадающие телефоны -->
+                    
+                <!--call back - Bootstrap-->
+                    <div class="call-back call-back_margin-left" data-toggle="modal" data-target="#obratny-zvonok" data-whatever="@mdo">
+                        ОБРАТНЫЙ ЗВОНОК
+                    </div>
+                <!--/call back - Bootstrap-->  
+
+                </div>
+            <!--/ RIGHT -->            
+            </div>
+            
+        <!--share-->            
+            <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__share.png" alt="" class="header-top-menu__share">
+        <!--/share-->     
+        
+        </div> 
+    <!--/header-top-->
+        
+        <div class="row_header-bottom">
+            <div class="container_header-bottom cs-max-width">
+        <!--header-bottom-->
+            <!--logo-->
+                <a href="/psp-wp/">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/header-bottom-menu__logo.png" alt="" class="header-bottom-menu__logo">
+                </a>    
+            <!--/logo-->
+            <!--mobile menu-->
+                <input type="checkbox" name="mobile-menu" id="mobile-menu_stroke-cross">
+                <div class="mobile-menu mobile-menu_positioning">
+                    <label class="mobile-menu__strokes" for="mobile-menu_stroke-cross">
+                        <div class="mobile-menu__stroke mobile-menu__stroke-cross1"></div>
+                        <div class="mobile-menu__stroke mobile-menu__stroke-cross2"></div>
+                        <div class="mobile-menu__stroke mobile-menu__stroke-cross3"></div>
+                    </label>
+                </div>
+            <!--/mobile menu-->
+                <ul class="header-bottom-menu">
+                    <li class="header-bottom-menu__item">
+                        <div class="header-bottom-menu__item-title">КОМПАНИЯ                        
+                            <div id="header-bottom-menu__item-arrow"></div>
+                        </div>
+                        <div class="header-hover-menu__container">
+                            <ul class="header-hover-menu">
+                                <a href="/psp-wp/о-компании/"><li class="header-hover-menu-item">О компании</li></a>
+                                <a href="/psp-wp/404-2/"><li class="header-hover-menu-item">Сотрудники</li></a>
+                                <a href="/psp-wp/видеогалерея/"><li class="header-hover-menu-item">Видео</li></a>
+                                <a href="/psp-wp/фотогалерея/"><li class="header-hover-menu-item">Фотогалерея</li></a>
+                                <a href="/psp-wp/отзывы/"><li class="header-hover-menu-item">Отзывы</li></a>
+                                <a href="/psp-wp/новости/"><li class="header-hover-menu-item">Новости</li></a>
+                                <a href="/psp-wp/вакансии/"><li class="header-hover-menu-item">Вакансии</li></a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu__item">
+                        <a href="/psp-wp/каталог-двери-без-акций/">
+                            <div class="header-bottom-menu__item-title">ОКНА ПВХ</div>
+                        </a>
+                    </li>
+                    <li class="header-bottom-menu__item">
+                        <div class="header-bottom-menu__item-title">ДВЕРИ                        
+                            <div id="header-bottom-menu__item-arrow"></div>
+                        </div>
+                        <div class="header-hover-menu__container">
+                            <ul class="header-hover-menu">
+                                <a href="/psp-wp/каталог-двери-без-акций/"><li class="header-hover-menu-item">Двери</li></a>
+                                <a href="/psp-wp/catalog/"><li class="header-hover-menu-item">Двери с акционными товарами</li></a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu__item">
+                        <a href="/psp-wp/каталог-двери-без-акций/">
+                            <div class="header-bottom-menu__item-title">ПОТОЛКИ</div>
+                        </a>
+                    </li>
+                    <li class="header-bottom-menu__item">
+                        <a href="/psp-wp/корпусная-мебель/">
+                            <div class="header-bottom-menu__item-title">КОРПУСНАЯ МЕБЕЛЬ</div>
+                        </a>
+                    </li>
+                    <li class="header-bottom-menu__item">
+                        <a href="/psp-wp/404-2/">
+                            <div class="header-bottom-menu__item-title">КОНТАКТЫ</div>
+                        </a>
+                    </li>                    
+                </ul>
+                
+            <!--header-bottom__search-->
+                <form class="header-bottom-menu-search">
+                    <input type="text" name="search">
+                </form>
+            <!--/header-bottom__search-->
+        <!--header-bottom-->
+            </div>       
+        </div>  
+        
+<!-- Modals -->
+    <!-- Заказать замер - Bootstrap -->
+        <div class="simple-modal modal fade" id="zakaz-zamera" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Заказать замер</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-description">
+                        Оставьте Ваши контактные данные<br>
+                        наш специалист сам перезвонит Вам
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="Артем">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="recipient-tel" placeholder="Номер телефона">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="footer-forms__button">ЗАКАЗАТЬ ЗАМЕР</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--/ Заказать замер - Bootstrap -->
+    
+    <!-- call back - Bootstrap -->
+        <div class="simple-modal modal fade" id="obratny-zvonok" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Заказ обратного звонка</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-description">
+                        Оставьте Ваши контактные данные<br>
+                        наш специалист сам перезвонит Вам
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="Артем">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="recipient-tel" placeholder="Номер телефона">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="footer-forms__button">ЗАКАЗАТЬ ЗВОНОК</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- /call back - Bootstrap -->
+    
+    <!-- vhod dlya klientov - Bootstrap -->
+        <div class="simple-modal simple-modal__vhod-dlya-klientov modal fade" id="vhod-dlya-klientov" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Вход для клентов</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-description">
+                        Введите данные, выданные вам при регистрации
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="recipient-name" placeholder="001258">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="enter-pass" placeholder="Введите пароль">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-body-2">
+                        <div class="rememeber-me">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">
+                                    Запомнить меня
+                                </label>
+                            </div>
+                        </div>
+                        <div class="forget-pass">
+                            <a class="forget-pass__a" href="#">Забыли пароль?</a>
+                        </div>                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="footer-forms__button">ВОЙТИ НА САЙТ</button>
+                    </div>
+                    <div class="modal-footer-2">
+                        <div class="modal-footer-2__content">
+                            <div class="modal-footer-2__text">Не являетесь нашим клиентом?</div>
+                            <div class="modal-footer-2__register">
+                                <a href="#" class="modal-footer-2__register-a">Регистрация</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- /vhod dlya klientov - Bootstrap -->
+    
+    <!-- Kupit` -->
+        <div class="simple-modal simple-modal__kupit modal fade" id="kupit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-content__left">
+                        <img class="modal-content-left__img" src="<?php echo get_template_directory_uri(); ?>/images/modals-kupit-img.png" alt="">
+                    </div>
+                    <div class="modal-content__right">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Купить дверь межкомнатную 
+    Eldorf</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="recipient-name" placeholder="Ваше имя">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" id="recipient-tel" placeholder="Номер телефона">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="recipient-mail" placeholder="Email">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="footer-forms__button">ОСТАВИТЬ ЗАЯВКУ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!--/ Kupit` -->
+    
+<!--/ Modals -->
+   
+    <!-- fix row_header-top -->
+        <script>
+        $(document).ready(function () {
+          $(window).scroll(function() {
+           var top = $(document).scrollTop();
+           if (top <= $('.row_header-top').innerHeight()) $('.row_header-bottom').removeClass('row_header-bottom_fixed');
+                else {
+                    $('.row_header-bottom').addClass('row_header-bottom_fixed');
+                }
+            });
+        });
+
+        $(document).ready(function () {
+          $(window).scroll(function() {
+           var top = $(document).scrollTop();
+           if (top <= $('.row_header-top').innerHeight()) $('.slider-bootstrap').removeClass('carousel_margin-top');
+                else {
+                    $('.slider-bootstrap').addClass('carousel_margin-top');
+                }
+            });
+        });
+        </script>
+    <!-- /fix row_header-top -->
+   
+<!--/header-->
+    </header>

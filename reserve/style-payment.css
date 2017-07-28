@@ -1,0 +1,50 @@
+/*Payment*/
+
+.payment-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+.payment-item__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.payment-item__text {
+    font-size: 16px;
+    font-weight: 300;
+}
+.payment-item__bullet {
+    margin-right: 12px;
+    margin-top: 6px;
+}
+.payment-item__our-cards {
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+.payment-item__card-text {
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/Payment*/
