@@ -22,7 +22,6 @@ include 'header.php';
     </div>
 </div>
 <!--/breadcrumbs-->        
-
   
 
 <!--header - II -->
@@ -35,7 +34,7 @@ include 'header.php';
 
 <!--catalog block-->
     <?php include"blocks/catalog-block/catalog-block.php"; ?> 
-<!--/catalog block - main block-->
+<!--/catalog block - main block--> 
 
 <!--text block-->
 <div class="text-block container">
