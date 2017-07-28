@@ -35,7 +35,7 @@ include 'header.php';
     <?php include"blocks/catalog-block/catalog-block.php"; ?> 
 <!--/catalog block - main block--> 
 
-<!--text block-->
+<!--text block-->   
 <div class="text-block container">
     <div class="text-block__preview">
         <div class="text-block__title">
