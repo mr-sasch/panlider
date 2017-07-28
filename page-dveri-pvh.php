@@ -21,8 +21,7 @@ include 'header.php';
         </ol>
     </div>
 </div>
-<!--/breadcrumbs-->        
-  
+<!--/breadcrumbs-->    
 
 <!--header - II -->
     <?php include"blocks/header-II/header-II.php" ?>
