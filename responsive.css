@@ -419,26 +419,23 @@ display: none;
         padding-left: 10px;
         padding-right: 10px;
     }
+    .cat-big-block__properties-row {
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    
+    
 }
 /*/ 550px */
 
 /******************* CATALOG PAGE *******************/
 @media screen and (max-width: 1200px) {
-/*
-    .filter-item {
-    margin-top: 20px;
-    }
-*/
-/*
-    .cat-big-block {
-    margin-top: 70px;
-    }
-*/
     .cat-block-top {
-    justify-content: space-around !important;
+        justify-content: space-around !important;
     }
     .cat-block-main__row {
-    justify-content: space-around !important;
+        justify-content: space-around !important;
     }
 }
 
@@ -521,6 +518,13 @@ display: none;
     margin-top: 70px;
     }    
 }
+
+@media screen and (max-width: 350px) {
+    .cat-block-top__item-img.cat-block-top__item-img-simple {
+        width: inherit !important;
+    }
+}
+
 
 /******************* /CATALOG PAGE *******************/
 
@@ -1111,8 +1115,26 @@ display: none;
         margin-left: 0;
     }
 }
-
-
 /*/ Двери - Карточка товара */
+
+/* Главная */
+@media screen and (max-width: 420px) {
+    .about-us__title {
+        font-size: 36px;
+    }
+}
+/*/ Главная */
+
+
+
+
+
+
+
+
+
+
+
+
 
 

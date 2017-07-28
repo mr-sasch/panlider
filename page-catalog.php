@@ -46,7 +46,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img-new.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img-new.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a> 
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -72,7 +72,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img-action.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img-action.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a> 
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -125,7 +125,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -150,7 +150,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -175,7 +175,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -200,7 +200,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -226,7 +226,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -251,7 +251,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -276,7 +276,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем
@@ -301,7 +301,7 @@ include 'header.php';
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/catalog/cat-block-top__item-img.png" alt="" class="cat-block-top__item-img cat-block-top__item-img-simple">
                         </a>
                         <div class="cat-block-top__item-title">
                             S29 Лиственница крем

@@ -1,100 +1,100 @@
-/* Фильтр дверей со своарачивающимя блоком */
-
-/* Кнопка Скрыть/Показать параметры */
-.cat-filter-hidden__title {
-    position: absolute;
-    right: 20px;
-    bottom: 15px;
-    z-index: 10;
-}
-.title-replace .cat-filter-hidden__show {
-    opacity: 0;
-    transition: .3s ease;
-}
-.title-replace .cat-filter-hidden__hide {
-    opacity: 1;
-    transition: .3s ease;
-}
-.cat-filter-hidden__show,
-.cat-filter-hidden__hide {
-    transition: .3s ease;
-}
-
-
-.cat-filter-hidden__hide {
-    color: #ff0000;
-}
-
-/*/ Кнопка Скрыть/Показать параметры */
-
-
-    /* Показать/Скрыть дополнительные параметры */
-
-.cat-filter-hidden__hide,
-.cat-filter-hidden__show {
-    cursor: pointer;
-}
-.cat-filter-hidden__hide {
-    position: absolute;
-    top: 0;
-    opacity: 0;
-}
-.cat-filter-hidden__show {
-    color: #0275d8;    
-}
-
-.cat-filter-hidden__show-i,
-.cat-filter-hidden__hide-i {
-    margin-right: 5px;
-}
-
-    /*/ Показать/Скрыть дополнительные параметры */
-
-
-    /* Формы */
-.cat-filter-hidden__params.cat-filter-hidden__params-hide {
-    max-height: 45px;
-    opacity: 0;
-}
-.cat-filter-hidden__params {
-    max-height: 250px;
-    opacity: 1;
-    transition: .3s ease;
-}
-
-
-.cat-filter-hidden__form {
-    display: inline-block;
-    margin: 23px 20px 20px 0;
-    font-size: 1rem;
-}
-.cat-filter-hidden__form-title {
-    font-weight: 600;
-    margin-bottom: 4px;
-    font-size: 15px;
-}
-.cat-filter-hidden__select {
-    padding: 5px;
-    width: 180px;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-.cat-filter-hidden__params-reset {
-    color: #636363;
-}
-.cat-filter-hidden__params-reset-input {
-    color: #636363;
-    cursor: pointer;
-    background: none;
-    border: none;
-    outline: none;
-    padding: 0;
-}
-.cat-filter-hidden__params-reset-i {
-    margin-left: 5px;
-}
-
-    /*/ Формы */
-
+/* Фильтр дверей со своарачивающимя блоком */
+
+/* Кнопка Скрыть/Показать параметры */
+.cat-filter-hidden__title {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    z-index: 10;
+}
+.title-replace .cat-filter-hidden__show {
+    opacity: 0;
+    transition: .3s ease;
+}
+.title-replace .cat-filter-hidden__hide {
+    opacity: 1;
+    transition: .3s ease;
+}
+.cat-filter-hidden__show,
+.cat-filter-hidden__hide {
+    transition: .3s ease;
+}
+
+
+.cat-filter-hidden__hide {
+    color: #ff0000;
+}
+
+/*/ Кнопка Скрыть/Показать параметры */
+
+
+    /* Показать/Скрыть дополнительные параметры */
+
+.cat-filter-hidden__hide,
+.cat-filter-hidden__show {
+    cursor: pointer;
+}
+.cat-filter-hidden__hide {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.cat-filter-hidden__show {
+    color: #0275d8;    
+}
+
+.cat-filter-hidden__show-i,
+.cat-filter-hidden__hide-i {
+    margin-right: 5px;
+}
+
+    /*/ Показать/Скрыть дополнительные параметры */
+
+
+    /* Формы */
+.cat-filter-hidden__params.cat-filter-hidden__params-hide {
+    max-height: 45px;
+    opacity: 0;
+}
+.cat-filter-hidden__params {
+    max-height: 250px;
+    opacity: 1;
+    transition: .3s ease;
+}
+
+
+.cat-filter-hidden__form {
+    display: inline-block;
+    margin: 23px 20px 20px 0;
+    font-size: 1rem;
+}
+.cat-filter-hidden__form-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.cat-filter-hidden__select {
+    padding: 5px;
+    width: 180px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.cat-filter-hidden__params-reset {
+    color: #636363;
+}
+.cat-filter-hidden__params-reset-input {
+    color: #636363;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.cat-filter-hidden__params-reset-i {
+    margin-left: 5px;
+}
+
+    /*/ Формы */
+
 /*/ Фильтр дверей со своарачивающимя блоком */

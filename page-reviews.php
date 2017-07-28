@@ -24,7 +24,7 @@ include 'header.php';
 <div class="review review__row">
     <div class="review__container cs-max-width">
         <div class="review__title">
-            Отзывы
+            Отзывы 
         </div>
         <div class="review__botton-block" data-toggle="modal" data-target="#obratny-zvonok" data-whatever="@mdo">
             <div class="review__botton">Оставить отзыв</div>
