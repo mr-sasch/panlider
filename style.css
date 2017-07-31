@@ -483,6 +483,7 @@ img.header-top-menu__img {
     position: relative;
     width: 35px;
     height: 32px;
+    z-index: 10;
 }
 
 .header-bottom-menu-search input[type=text] {
