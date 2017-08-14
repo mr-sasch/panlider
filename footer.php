@@ -1,8 +1,8 @@
 
     <footer class="footer">
         <div class="container">
-           
-           
+  
+
             <div class="row no-gutters">
 <!--column 1-->
                 <div class="footer-logo col-12 col-sm-6 offset-sm-0 col-lg-3">
@@ -59,7 +59,7 @@
                     <div class="footer-forms__link">
                         <a href="/psp-wp/404-2/" >Письмо руководству</a>
                     </div>
-                    
+
                     <div class="footer-forms__button" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                         Заказать бесплатный замер
                     </div>
@@ -102,9 +102,9 @@
                         </a>
                     </ul>
                 </div>
-<!--/column 4-->                
+<!--/column 4-->
             </div>
-            
+
 <!--copywrite-->
             <div class="copywrite copywrite_margin-top">
                 <div class="row no-gutters justify-content-between">
@@ -131,7 +131,7 @@
                         </div>
                     </div>
     <!--/left block-->
-    
+
     <!--right block-->
                     <div class="copywrite__right col-12 col-lg-4 col-xl-3">
                         <div class="row no-gutters">
@@ -145,7 +145,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="copywrite__developer col-6">
                                 <div class="copywrite__developer_align">
                                     <div class="copywrite__developer-title">
@@ -155,21 +155,21 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
-    <!--/right block--> 
+    <!--/right block-->
                 </div>
-            </div>           
-<!--/copywrite-->            
-        </div>   
-                
-<!--to-top-->       
+            </div>
+<!--/copywrite-->
+        </div>
+
+<!--to-top-->
         <a href="#" class="to-top mobile-hide" style="display: none;">
             <i class="to-top__arrow fa fa-angle-up" aria-hidden="true"></i>
         </a>
 <!--/to-top-->
-                                    
+
     </footer>
 
 <?php wp_footer(); ?>
@@ -178,7 +178,7 @@
 
                                 <!-- SCRIPTS -->
 
-<!-- Video gallery Scripts -->   
+<!-- Video gallery Scripts -->
     <!-- Videogallery links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.19/js/lightgallery-all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.19/js/lg-thumbnail.min.js"></script>
@@ -189,8 +189,8 @@
 <!-- video gallery - lightbox and view-more -->
     <script src="<?php echo get_template_directory_uri(); ?>/js/gallery-video-lightbox.js"></script>
 <!--/ video gallery - lightbox and view-more -->
-    
-<!--/ Video gallery Scripts --> 
+
+<!--/ Video gallery Scripts -->
 
 <!-- fixed top menu -->
     <script src="<?php echo get_template_directory_uri(); ?>/js/fixed-top-header.js"></script>
