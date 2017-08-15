@@ -66,34 +66,76 @@ include 'header.php';
                 <!-- bootstrap tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#kitchen" role="tab">Кухни</a>
+                        <a class="nav-link active" data-toggle="tab" href="#kitchen" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-kuhni.svg" alt="">
+                          <div class="nav-link__title">
+                            Кухни
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#living-room" role="tab">Гостиные</a>
+                        <a class="nav-link" data-toggle="tab" href="#living-room" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-prihozhie.svg" alt="">
+                          <div class="nav-link__title">
+                            Гостиные
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#playroom" role="tab">Детские</a>
+                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-spalni.svg" alt="">
+                          <div class="nav-link__title">
+                            Спальни
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#Wardrobes" role="tab">Шкафы-купе</a>
+                        <a class="nav-link" data-toggle="tab" href="#beds" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-krovati.svg" alt="">
+                          <div class="nav-link__title">
+                            Кровати
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#hall" role="tab">Прихожие</a>
+                        <a class="nav-link" data-toggle="tab" href="#playroom" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-detskie.svg" alt="">
+                          <div class="nav-link__title">
+                            Детские
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                        <a class="nav-link" data-toggle="tab" href="#hall" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-prihozhie.svg" alt="">
+                          <div class="nav-link__title">
+                            Прихожие
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                        <a class="nav-link" data-toggle="tab" href="#Wardrobes" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-shkafy.svg" alt="">
+                          <div class="nav-link__title">
+                            Шкафы-купе
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                        <a class="nav-link" data-toggle="tab" href="#office" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-ofis.svg" alt="">
+                          <div class="nav-link__title">
+                            Офис
+                          </div>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                        <a class="nav-link" data-toggle="tab" href="#other" role="tab">
+                          <img class="nav-link__tab-img" src="<?php echo get_template_directory_uri(); ?>/images/meb-korp/mebel-korpus__tab-raznoe.svg" alt="">
+                          <div class="nav-link__title">
+                            Разное
+                          </div>
+                        </a>
                     </li>
                 </ul>
                 <!--/ bootstrap tabs -->

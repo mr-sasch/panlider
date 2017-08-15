@@ -322,9 +322,30 @@
 .mebel-korpus__furniture-top-tabs .nav-link.active {
     background-color: rgba(255, 255, 255, 0);
     border-color: rgba(255, 255, 255, 0);
+    transition: .2s ease;
 }
- .mebel-korpus__furniture-tab-content>.active {
+.mebel-korpus__furniture-tab-content>.active {
     display: flex;
+}
+.nav-link__tab-img {
+    width: 53px;
+}
+.nav-link {
+    padding: 0px !important;
+    text-align: center;
+}
+.nav-item {
+    border: 1px solid rgba(19, 119, 189, 0);
+    border-radius: 4px;
+    padding: 10px 8px 0;
+    box-sizing: border-box;
+    transition: .2s ease;
+}
+.nav-item:hover {
+    border: 1px solid #1377bd;
+}
+.nav-item:hover .nav-link {
+    color: #1377bd;
 }
     /*/ Табы */
 .mebel-korpus .baguetteBox-gallery__item-addition {
