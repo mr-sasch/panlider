@@ -293,9 +293,11 @@
     /* Табы */
 .mebel-korpus__furniture-top-tabs .nav-tabs {
     border-bottom: none;
+    display: flex;
+    justify-content: space-between;
 }
 .mebel-korpus__furniture-top-tabs {
-    display: inline-block;
+    display: block;
 }
 .mebel-korpus__furniture-top-row:after {
     content: '';

@@ -6,9 +6,9 @@
 
 <?php //get_header();
 include 'header.php';
-?>   
+?>
 
-<!--breadcrumbs-->        
+<!--breadcrumbs-->
 <div class="breadcrumb_bg container-fluid no-padding">
     <div class="container">
         <ol class="breadcrumb">
@@ -17,42 +17,42 @@ include 'header.php';
         </ol>
     </div>
 </div>
-<!--/breadcrumbs-->  
+<!--/breadcrumbs-->
 
 <div style="">
 
 <!-- mebel korpus -->
 <div class="mebel-korpus cs-max-width">
-   
+
 <!-- Title row -->
-    <div class="review review__row">       
+    <div class="review review__row">
         <?php //Header страниц каталога
             include"blocks/catalog-title-row/catalog-title-row.php";
-        ?>         
+        ?>
         <script> //Задаем заголовок страницы
             document.getElementById("page-title").innerHTML = "Корпусная мебель";
             document.getElementById("catalog-title-row__btn-title").innerHTML = "Заказать замер";
             document.getElementById("catalog-title-row__btn-img").setAttribute("src", "<?php echo get_template_directory_uri(); ?>/images/meb-korp/meb-korp-zakaz-zamer.png");
             document.getElementById("catalog-title-row").className = "review__container";
-        </script>  
+        </script>
     </div>
 <!--/ Title row -->
-   
+
     <?php //Слайдер
     include"blocks/catalog-top-slider/catalog-top-slider.php"
     ?>
     <script>
     document.getElementById("catalog-top-slider__text").innerHTML = '<span class="mebel-korpus__slider-item-text-1">Прихожие<br>со скидкой</span><span class="mebel-korpus__slider-item-text-2">15%</span><br><span class="mebel-korpus__slider-item-text-3">только в марте!</span>';
-        
+
     var images_cont = document.getElementById("mebel-korpus__slider-cell");
     var images = images_cont.getElementsByClassName("mebel-korpus__slider-item-right");
     var counter;
     for (counter = 0; counter < images.length; counter++) {
         images[counter].style.backgroundImage = "url(<?php echo get_template_directory_uri(); ?>/images/meb-korp/meb-korp-slider-top.png)";
-        images[counter].style.backgroundSize = "cover"; 
-    }      
+        images[counter].style.backgroundSize = "cover";
+    }
     </script>
-    
+
 <!-- Our Furniture -->
     <div class="mebel-korpus__furniture-cell">
     <!-- Title and tabs -->
@@ -83,12 +83,24 @@ include 'header.php';
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#bedroom" role="tab">Спальни</a>
+                    </li>
                 </ul>
                 <!--/ bootstrap tabs -->
             </div>
             <!--/ Табы -->
         </div>
-        <!--/ Title -->    
+        <!--/ Title -->
         <!-- Tabs -->
         <div class="baguetteBox-gallery mebel-korpus__furniture-tab-content tab-content">
             <div id="kitchen" class="baguetteBox-gallery__block tab-pane active">
@@ -147,14 +159,14 @@ include 'header.php';
                     <img class="baguetteBox-gallery__zoom" src="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/gallery-photo__zoom.png" alt="">
                 </a>
                 <a href="" class="baguetteBox-gallery__item-addition"></a>
-            <!-- Initialize Lightbox-gallery --> 
+            <!-- Initialize Lightbox-gallery -->
                 <script>
                     baguetteBox.run('.baguetteBox-gallery__block', {
                         animation: 'fadeIn'
                     });
                 </script>
-            <!-- / Initialize Lightbox-gallery -->     
-            </div>  
+            <!-- / Initialize Lightbox-gallery -->
+            </div>
             <div id="living-room" class="baguetteBox-gallery__block tab-pane">
                 <a class="baguetteBox-gallery__item" href="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/1-1.jpg" data-caption="Image caption">
                     <div class="baguetteBox-gallery__item-title">Кухня 1</div>
@@ -211,14 +223,14 @@ include 'header.php';
                     <img class="baguetteBox-gallery__zoom" src="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/gallery-photo__zoom.png" alt="">
                 </a>
                 <a href="" class="baguetteBox-gallery__item-addition"></a>
-            <!-- Initialize Lightbox-gallery --> 
+            <!-- Initialize Lightbox-gallery -->
                 <script>
                     baguetteBox.run('.baguetteBox-gallery__block', {
                         animation: 'fadeIn'
                     });
                 </script>
-            <!-- / Initialize Lightbox-gallery -->     
-            </div>  
+            <!-- / Initialize Lightbox-gallery -->
+            </div>
             <div id="playroom" class="baguetteBox-gallery__block tab-pane">
                 <a class="baguetteBox-gallery__item" href="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/1-1.jpg" data-caption="Image caption">
                     <div class="baguetteBox-gallery__item-title">Кухня 1</div>
@@ -275,14 +287,14 @@ include 'header.php';
                     <img class="baguetteBox-gallery__zoom" src="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/gallery-photo__zoom.png" alt="">
                 </a>
                 <a href="" class="baguetteBox-gallery__item-addition"></a>
-            <!-- Initialize Lightbox-gallery --> 
+            <!-- Initialize Lightbox-gallery -->
                 <script>
                     baguetteBox.run('.baguetteBox-gallery__block', {
                         animation: 'fadeIn'
                     });
                 </script>
-            <!-- / Initialize Lightbox-gallery -->     
-            </div>  
+            <!-- / Initialize Lightbox-gallery -->
+            </div>
             <div id="Wardrobes" class="baguetteBox-gallery__block tab-pane">
                 <a class="baguetteBox-gallery__item" href="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/1-1.jpg" data-caption="Image caption">
                     <div class="baguetteBox-gallery__item-title">Кухня 1</div>
@@ -339,14 +351,14 @@ include 'header.php';
                     <img class="baguetteBox-gallery__zoom" src="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/gallery-photo__zoom.png" alt="">
                 </a>
                 <a href="" class="baguetteBox-gallery__item-addition"></a>
-            <!-- Initialize Lightbox-gallery --> 
+            <!-- Initialize Lightbox-gallery -->
                 <script>
                     baguetteBox.run('.baguetteBox-gallery__block', {
                         animation: 'fadeIn'
                     });
                 </script>
-            <!-- / Initialize Lightbox-gallery -->     
-            </div>  
+            <!-- / Initialize Lightbox-gallery -->
+            </div>
             <div id="hall" class="baguetteBox-gallery__block tab-pane">
                 <a class="baguetteBox-gallery__item" href="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/1-1.jpg" data-caption="Image caption">
                     <div class="baguetteBox-gallery__item-title">Кухня 1</div>
@@ -403,14 +415,14 @@ include 'header.php';
                     <img class="baguetteBox-gallery__zoom" src="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/gallery-photo__zoom.png" alt="">
                 </a>
                 <a href="" class="baguetteBox-gallery__item-addition"></a>
-            <!-- Initialize Lightbox-gallery --> 
+            <!-- Initialize Lightbox-gallery -->
                 <script>
                     baguetteBox.run('.baguetteBox-gallery__block', {
                         animation: 'fadeIn'
                     });
                 </script>
-            <!-- / Initialize Lightbox-gallery -->     
-            </div>  
+            <!-- / Initialize Lightbox-gallery -->
+            </div>
             <div id="bedroom" class="baguetteBox-gallery__block tab-pane">
                 <a class="baguetteBox-gallery__item" href="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/1-1.jpg" data-caption="Image caption">
                     <div class="baguetteBox-gallery__item-title">Кухня 1</div>
@@ -467,18 +479,18 @@ include 'header.php';
                     <img class="baguetteBox-gallery__zoom" src="<?php echo get_template_directory_uri(); ?>/images/gallery-photo/gallery-photo__zoom.png" alt="">
                 </a>
                 <a href="" class="baguetteBox-gallery__item-addition"></a>
-            <!-- Initialize Lightbox-gallery --> 
+            <!-- Initialize Lightbox-gallery -->
                 <script>
                     baguetteBox.run('.baguetteBox-gallery__block', {
                         animation: 'fadeIn'
                     });
                 </script>
-            <!-- / Initialize Lightbox-gallery -->     
-            </div>        
-            <!-- View more photo - button -->            
+            <!-- / Initialize Lightbox-gallery -->
+            </div>
+            <!-- View more photo - button -->
             <div id="baguetteBox-gallery__view-more">
                 <div class="mod_block-underline">Смотреть еще фото</div>
-            </div>            
+            </div>
             <script>
               $('#baguetteBox-gallery__view-more').click(function(e){
                 e.preventDefault();
@@ -487,25 +499,25 @@ include 'header.php';
                 }
                 baguetteBox.run('.baguetteBox-gallery__block', {
                     animation: 'fadeIn'
-                });              
+                });
               });
             </script>
-            <!-- / View more photo - button -->        
-        </div>   
-       
-       
-        <!--/ Tabs -->    
-    <!--/ Title and tabs --> 
+            <!-- / View more photo - button -->
+        </div>
+
+
+        <!--/ Tabs -->
+    <!--/ Title and tabs -->
     </div>
 <!--/ Our Furniture -->
-   
+
 <!-- Why should you choose us -->
     <div class="mebel-korpus__why-us">
     <!--/ Title -->
         <div class="mebel-korpus__why-us-title">
             Почему вам стоит заказать корпусную мебель именно у нас?
         </div>
-    <!-- Title -->    
+    <!-- Title -->
     <!-- Items -->
         <div class="mebel-korpus__payment-item payment-item">
             <div class="payment-item__col-1">
@@ -559,31 +571,31 @@ include 'header.php';
                     Мы дорожим каждым нашим клиентом! Поэтому постоянно даем скономить на покупке окон ПВХ. Проводим постоянны акции, делаем скидки на ряд позиций нашей продукции.
                 </div>
             </div>
-        </div>    
-    <!--/ Items --> 
-    </div>  
+        </div>
+    <!--/ Items -->
+    </div>
 <!--/ Why should you choose us -->
 
 </div>
 
 <?php //Преимущества нашей корпусной мебели
 include"blocks/catalog-preimusch/catalog-preimusch.php";
-?>  
+?>
 <script>
     document.getElementById('preimusch__title').innerHTML = "Преимущества нашей корпусной мебели";
     document.getElementById('preimusch__title').style.textAlign = "center";
 </script>
 
-</div> 
+</div>
 
 <div class="mebel-korpus cs-max-width">
 
 <?php //Как мы работаем
 include"blocks/catalog-kak-mi-rab/catalog-kak-mi-rab.php";
-?> 
-        
-</div>        
-      
+?>
+
+</div>
+
 <?php //Получите подробную информацию
 include"blocks/catalog-get-more-info/catalog-get-more-info.php"
 ?>
@@ -591,16 +603,16 @@ include"blocks/catalog-get-more-info/catalog-get-more-info.php"
 document.getElementById("get-more-info-full").className = "";
 document.getElementById("get-more-info").className = "mebel-korpus__more-info";
 </script>
-     
-<div class="mebel-korpus cs-max-width">    
-    
-<!-- Гарантия -->        
+
+<div class="mebel-korpus cs-max-width">
+
+<!-- Гарантия -->
     <div class="mebel-korpus__warranty text-block">
         <div class="text-block__preview">
             <div class="text-block__title">
                 Гарантия
             </div>
-    <!--block preview-->        
+    <!--block preview-->
             <div class="text-block__text-body">
 <p>Одним из главных показателей качества предоставляемых работ по установке окон ПВХ является гарантийный срок, обеспечиваемый компанией-производителем. Стоит обращать особое внимание как на краткосрочную гарантию на 1-2 года, так и на долговременную, например, на 40 лет. Традиционно гарантийный срок на пластиковые окна устанавливается от 5 лет в зависимости от выбранного профиля.</p>
 
@@ -618,12 +630,12 @@ document.getElementById("get-more-info").className = "mebel-korpus__more-info";
             </div>
     <!--/block preview-->
         </div>
-    <!--read more-->    
+    <!--read more-->
         <div class="text-block__read-more">
         <!--read more - bootstrap part-->
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card">
-                <!--read more text-->   
+                <!--read more text-->
                     <div id="collapseOne" class="hide collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
                         <div class="card-block">
 <p>Постоянный мониторинг спроса и цен что позволяет нам формировать предложение на востребованную продукцию.</p>
@@ -638,45 +650,45 @@ document.getElementById("get-more-info").className = "mebel-korpus__more-info";
 <p>Немецкая плёнка Экошпон на основе ПВХ+лак.</p>
                         </div>
                     </div>
-                <!--/read more text-->    
-                <!--read more button-->   
+                <!--/read more text-->
+                <!--read more button-->
                     <div class="card-header" role="tab" id="headingOne">
                         <h5 class="mb-0">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
 
-                                <div class="cat__read-more-text">Читать подробнее</div>      
-                                <div class="cat__read-more-text-hide">Свернуть</div>                          
+                                <div class="cat__read-more-text">Читать подробнее</div>
+                                <div class="cat__read-more-text-hide">Свернуть</div>
 
                             </a>
                         </h5>
                     </div>
                 <!--/read more button-->
-                </div>  
+                </div>
             </div>
         <!--/read more - bootstrap part-->
         </div>
-    <!--/read more-->        
-    </div>    
+    <!--/read more-->
+    </div>
 <!--/ Гарантия -->
 
 </div>
 
 <?php //Честные отзывы наших клиентов
 include"blocks/catalog-otzivi/catalog-otzivi.php";
-?>    
+?>
 <script> //задаем ширину и выравнивание блоку "Честные отзывы"
 document.getElementById("chestnie-otzivi").className += " mod_margin-auto cs-max-width";
-</script>  
-   
+</script>
+
 <div class="mebel-korpus cs-max-width">
-   
+
 <!-- Смотрите видео о нас -->
-  
+
 <?php //Смотрите видео о нас
 include"blocks/catalog-video-about-us/catalog-video-about-us.php";
 ?>
-       
-</div>   
+
+</div>
 <!--/ mebel korpus -->
 
 <!--bottom separator-->
@@ -687,9 +699,9 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
 <div class="hidden-menu hidden-menu_padding">
     <div class="container">
 <!--hidden menu-->
-<!--switcher show/hide-->  
+<!--switcher show/hide-->
         <div data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="collapsed">
-            <div class="hidden-menu-switcher-block">      
+            <div class="hidden-menu-switcher-block">
 
     <!--show menu-->
                     <div class="hidden-menu-switcher hidden-menu-switcher_down">
@@ -708,12 +720,12 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
                     </div>
     <!--/hide menu-->
 
-            </div> 
+            </div>
         </div>
 <!--/switcher show/hide-->
-        <div class="collapse" id="collapseExample">    
+        <div class="collapse" id="collapseExample">
     <!--menu columns-->
-        <!--menu items-->   
+        <!--menu items-->
             <div class="hidden-menu-submenu row no-gutters">
                 <div class="hidden-menu-submenu-column col-sm-6 col-md-3 col-lg-2">
                     <div class="hidden-menu-submenu-column__title">компания</div>
@@ -760,7 +772,7 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
                     </ul>
                 </div>
         <!--/menu items-->
-        <!--form-->        
+        <!--form-->
                 <div class="hidden-menu-submenu-column hidden-menu-submenu-column_center col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-0">
                     <div class="hidden-menu-submenu-column__title hidden-menu-submenu-column__title_after-align">оставайтесь с нами</div>
                     <div class="hidden-menu-submenu-column__form">
@@ -771,15 +783,15 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
                         <input type="text" class="hidden-menu-submenu-column__form-email" placeholder="Email">
                         <input type="submit" class="hidden-menu-submenu-column__form-btn" value="подписаться">
                     </div>
-                </div>                
-        <!--/form-->        
-            </div>            
-    <!--/menu columns--> 
+                </div>
+        <!--/form-->
+            </div>
+    <!--/menu columns-->
         </div>
 <!--/hidden menu-->
     </div>
-</div>  
-<!--/Hidden menu-->    
+</div>
+<!--/Hidden menu-->
 <?php //get_footer();
 include 'footer.php';
 ?>
