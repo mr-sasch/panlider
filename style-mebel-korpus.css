@@ -11,7 +11,7 @@
 .white-block__title {
     font-size: 30px;
     font-weight: 600;
-    padding-top: 20px; 
+    padding-top: 20px;
 }
     /* Title row */
 .mebel-korpus__buy-in {
@@ -52,7 +52,7 @@
     margin-top: 30px;
     padding-bottom: 80px;
 }
-    
+
     /*контейнер слайдера*/
 .mebel-korpus__slider {
     text-align: right;
@@ -67,28 +67,28 @@
 
     /*контейнер слайда*/
 .mebel-korpus__slider-item {
-    position: relative;   
-    
+    position: relative;
+
     display: flex !important;
     -webkit-flex-direction: row;
     -moz-flex-direction: row;
     -ms-flex-direction: row;
     -o-flex-direction: row;
     flex-direction: row;
-    
+
     -webkit-flex-direction: row;
     -moz-flex-direction: row;
     -ms-flex-direction: row;
     -o-flex-direction: row;
     flex-direction: row;
-    
+
     justify-content: space-between;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
-    
+
     background-color: #ff0000;
     border-radius: 5px;
     padding: 8px 8px 8px 47px;
@@ -99,7 +99,7 @@
 .mebel-korpus__slider-item-left {
     color: #fff;
     line-height: 60px;
-} 
+}
 .mebel-korpus__slider-item-right {
     width: 42%;
     width: 450px;
@@ -113,7 +113,7 @@
 .mebel-korpus__slider-item-text-1 {
     font-size: 53px;
     font-weight: 400;
-} 
+}
 .mebel-korpus__slider-item-text-2 {
     font-size: 71px;
     font-weight: 600;
@@ -133,10 +133,10 @@
 }
         /* переопределение Slick Slider`а */
 .mebel-korpus__slider .slick-dots,
-.mebel-korpus__slider .slick-next, 
+.mebel-korpus__slider .slick-next,
 .mebel-korpus__slider .slick-prev {
     display: inline-block;
-    
+
     /*display: none !important;*/
 }
 
@@ -146,7 +146,7 @@
     transform: none;
     right: initial;
     z-index: 1000;
-    
+
     float: right;
     order: 4;
 }
@@ -157,7 +157,7 @@
     right: initial;
     left: initial;
     z-index: 1000;
-    
+
     right: -3px;
     order: 2;
 }
@@ -169,7 +169,7 @@
     border: 1px solid #7d7d7d;
     opacity: 1;
     transition: .2s ease;
-    
+
     display: inline-block;
     position: relative;
     top: 20px;
@@ -209,13 +209,13 @@
 .mebel-korpus__slider .slick-dots {
     width: initial;
     right: initial;
-    
+
     display: inline-block;
     position: relative;
     top: 25px;
     margin-right: 20px;
     margin-left: 20px;
-    
+
     -webkit-order: 3;
     -moz-order: 3;
     -ms-order: 3;
@@ -230,7 +230,7 @@
     width: 12px;
     height: 12px;
     opacity: 1 !important;
-    top: 50%; left: 50%;    
+    top: 50%; left: 50%;
     transform: translate(-50%,-50%);
     transition: .1s ease;
 }
@@ -249,7 +249,7 @@
             /*/ Буллеты */
             /* Контейнер */
 .mebel-korpus__slider .slick-list.draggable {
-    position: relative; /*для выравнивания буллетов - absolute*/  
+    position: relative; /*для выравнивания буллетов - absolute*/
     text-align: left;
     order: 1;
 }
@@ -264,7 +264,7 @@
     text-align: justify;
 }
 .mebel-korpus__furniture-top-title {
-    display: inline-block;
+    display: block;
     font-weight: 600;
     font-size: 30px;
 }
@@ -316,7 +316,7 @@
 .mebel-korpus__furniture-top-tabs .nav-link.active {
     color: #1377bd;
 }
-.mebel-korpus__furniture-top-tabs .nav-link, 
+.mebel-korpus__furniture-top-tabs .nav-link,
 .mebel-korpus__furniture-top-tabs .nav-link.active {
     background-color: rgba(255, 255, 255, 0);
     border-color: rgba(255, 255, 255, 0);
@@ -387,7 +387,7 @@
 }
 .mebel-korpus__preimusch-item-img {
     position: absolute;
-    top: 50%; left: 50%; 
+    top: 50%; left: 50%;
     transform: translate(-50%,-50%);
 }
 .mebel-korpus__preimusch-item-info {
@@ -414,7 +414,7 @@
     color: #717375;
     list-style: none;
     padding-left: 0;
-    font-size: 14px;    
+    font-size: 14px;
 }
 .mebel-korpus__preimusch-item-list li {
     margin-bottom: 9px;
@@ -446,51 +446,51 @@
 .mebel-korpus__process .mebel-korpus__preimusch-item {
     height: 114px;
 }
-#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom,
 #mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top {
-    position: absolute;    
+    position: absolute;
 }
 
-#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top,
 #mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top {
     right: 0;
     top: -50px;
 }
 
-#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom, 
+#mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-bottom,
 #mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom {
     right: 0;
     bottom: -10px;
 }
 
 #mebel-korpus__process-item-1 .mebel-korpus__preimusch-item-arrow-bottom,
-#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom, 
-#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top, 
-#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top, 
+#mebel-korpus__process-item-2 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-bottom,
+#mebel-korpus__process-item-3 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-4 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-5 .mebel-korpus__preimusch-item-arrow-top,
+#mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-top,
 #mebel-korpus__process-item-6 .mebel-korpus__preimusch-item-arrow-bottom {
     display: none;
-} 
+}
 
 .mebel-korpus__process-long-arrow {
     clear: both;
@@ -632,7 +632,7 @@
 }
 .mebel-korpus__video-about-title {
     font-size: 18px;
-    font-weight: 600;  
+    font-weight: 600;
 }
 .mebel-korpus__video-about-text {
     font-size: 16px;
