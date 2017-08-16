@@ -317,6 +317,7 @@
 }
 .mebel-korpus__furniture-top-tabs .nav-link.active {
     color: #1377bd;
+    border: 1px solid #1377bd !important;
 }
 .mebel-korpus__furniture-top-tabs .nav-link,
 .mebel-korpus__furniture-top-tabs .nav-link.active {
@@ -329,23 +330,36 @@
 }
 .nav-link__tab-img {
     width: 53px;
+    display: inline-block;
 }
 .nav-link {
-    padding: 0px !important;
     text-align: center;
+    transition: .2s ease;
+    border: 1px solid rgba(19, 119, 189, 0);
+    border-radius: 4px;
+    padding: 10px 8px 0 !important;
+    box-sizing: border-box;
 }
-.nav-item {
+/*.nav-item {
     border: 1px solid rgba(19, 119, 189, 0);
     border-radius: 4px;
     padding: 10px 8px 0;
     box-sizing: border-box;
     transition: .2s ease;
-}
-.nav-item:hover {
+}*/
+/*.nav-item:hover {
     border: 1px solid #1377bd;
-}
-.nav-item:hover .nav-link {
+}*/
+.nav-link:hover {
     color: #1377bd;
+    border: 1px solid #1377bd !important;
+}
+.nav-link svg {
+  transition: .2s ease !important;
+}
+.nav-link.active svg,
+.nav-link:hover svg {
+  fill: #1377bd !important;
 }
     /*/ Табы */
 .mebel-korpus .baguetteBox-gallery__item-addition {
