@@ -6,9 +6,9 @@
 
 <?php //get_header();
 include 'header.php';
-?>   
+?>
 
-<!--breadcrumbs-->        
+<!--breadcrumbs-->
 <div class="breadcrumb_bg container-fluid no-padding">
     <div class="container">
         <ol class="breadcrumb">
@@ -18,21 +18,21 @@ include 'header.php';
         </ol>
     </div>
 </div>
-<!--/breadcrumbs-->  
+<!--/breadcrumbs-->
 
 <!-- Окна ПВХ -->
 <div class="mebel-okna mebel-korpus cs-max-width">
-   
+
 <!-- Title row -->
     <div class="review review__row">
-        
+
 <?php //Header страниц каталога
 include"blocks/catalog-title-row/catalog-title-row.php";
-?>         
+?>
 <script> //Задаем заголовок страницы
 document.getElementById("page-title").innerHTML = "Окна ПВХ";
-</script>        
-        
+</script>
+
         <div class="okna-full__okna-furnitura">
             <div onclick="mejkomActive()" id="mejkomActive" class="cat-door-type cat-door-type__interior mod_margin-0-15 active">
                 <img class="cat-door-type__img" src="<?php echo get_template_directory_uri(); ?>/images/meb-okna/meb-korp__top-row-okna.png" alt="">Окна ПВХ
@@ -40,7 +40,7 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
             <div onclick="furnitureActive()" id="furnitureActive" class="cat-door-type cat-door-type__furniture mod_margin-0-15">
                 <img class="cat-door-type__img" src="<?php echo get_template_directory_uri(); ?>/images/meb-okna/meb-korp__top-row-furniture.png" alt="">Фурнитура
             </div>
-            
+
             <script>
                 function mejkomActive() {
                     document.getElementById("mejkomActive").classList.toggle("active");
@@ -51,7 +51,7 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                 function furnitureActive() {
                     document.getElementById("furnitureActive").classList.toggle("active");
                 }
-            </script>            
+            </script>
         </div>
     </div>
 <!--/ Title row -->
@@ -59,11 +59,11 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
 <!-- Top Slider -->
 <div class="mebel-korpus__slider-cell okna-full__slider-cell">
     <div class="okna-full__slider">
-       
+
         <div class="okna-full__slider-item">
             <div class="okna-full__slider-image">
                 <div class="okna-full__slider-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-slider.png'); background-size: cover;"></div>
-            </div>   
+            </div>
             <div class="okna-full__slider-item-text">
                 <div class="okna-full__slider-item-text-row1">Окна Rehau</div>
                 <div class="okna-full__slider-item-text-row2">«Аллюр»</div>
@@ -75,11 +75,11 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                 </div>
             </div>
         </div>
-       
+
         <div class="okna-full__slider-item">
             <div class="okna-full__slider-image">
                 <div class="okna-full__slider-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-slider.png'); background-size: cover;"></div>
-            </div>   
+            </div>
             <div class="okna-full__slider-item-text">
                 <div class="okna-full__slider-item-text-row1">Окна Rehau</div>
                 <div class="okna-full__slider-item-text-row2">«Аллюр»</div>
@@ -91,8 +91,8 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                 </div>
             </div>
         </div>
-       
-    </div>    
+
+    </div>
     <script>
         $(document).ready(function(){
             $('.okna-full__slider').slick({
@@ -100,8 +100,8 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                 slidesToScroll: 1,
                 dots: true,
                 arrows: true
-            });  
-        });  
+            });
+        });
     </script>
 </div>
 <!--/ Top Slider -->
@@ -116,12 +116,12 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
             <div class="mebel-korpus__furniture-top-title">Пластиковые окна</div>
             <!--/ Заголовок -->
             <!--catalog block - main block-->
-    <div class="cat-block-main__row plastic-windows__full-width"> 
+    <div class="cat-block-main__row plastic-windows__full-width">
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-1.png">   
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
@@ -136,20 +136,20 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>       
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-2.png">      
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-2.png" alt="" class="cat-block-top__item-img">
-                        </a>    
+                        </a>
                         <div class="cat-block-top__item-title">
                             ОКНА REHAU
                         </div>
@@ -159,20 +159,20 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-3.png">      
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-3.png" alt="" class="cat-block-top__item-img">
-                        </a>    
+                        </a>
                         <div class="cat-block-top__item-title">
                             ОКНА EXPROF
                         </div>
@@ -182,20 +182,20 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-4.png">      
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-4.png" alt="" class="cat-block-top__item-img">
-                        </a>    
+                        </a>
                         <div class="cat-block-top__item-title">
                             ОКНА DEXEN
                         </div>
@@ -205,15 +205,15 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-5.png">   
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
@@ -228,15 +228,15 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-6.png">       
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
@@ -251,20 +251,20 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-4.png">      
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-4.png" alt="" class="cat-block-top__item-img">
-                        </a>    
+                        </a>
                         <div class="cat-block-top__item-title">
                             ТЕРМОПАКЕТЫ
                         </div>
@@ -274,20 +274,20 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-5.png">      
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-5.png" alt="" class="cat-block-top__item-img">
-                        </a>    
+                        </a>
                         <div class="cat-block-top__item-title">
                             ЦВЕТНЫЕ ЛАМИНИРОВАННЫЕ ОКНА
                         </div>
@@ -297,15 +297,15 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="cat-block-top__item-align">
                 <div class="cat-block-top__item">
                     <div class="cat-block-top__item-align-center okna-full__item-width">
-                        <a class="" href="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-item-6.png"> 
+                        <a class="" href="#">
                             <div class="plastic-windows__gull-width-hover-eye-block">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/hover-eye.png" alt="" class="plastic-windows__gull-width-hover-eye">
                             </div>
@@ -320,13 +320,13 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                         <div class="cat-block-top__item-buy" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
                             ЗАКАЗАТЬ ЗАМЕР
                         </div>
-                    </div>    
-                </div>               
+                    </div>
+                </div>
             </div>
         </div>
     <!-- блоки для выравнивания элементов -->
         <div class="cat-block-top__item-align-help" style="width: 342px">
-        </div>   
+        </div>
         <div class="cat-block-top__item-align-help" style="width: 342px">
         </div>
     <!--/ блоки для выравнивания элементов -->
@@ -334,26 +334,26 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
 
     <!--/catalog block - main block-->
         </div>
-        <!--/ Title -->    
-    </div>   
-<!--/ Title and tabs --> 
+        <!--/ Title -->
+    </div>
+<!--/ Title and tabs -->
 </div>
-    <!-- Initialize Lightbox-gallery --> 
+    <!-- Initialize Lightbox-gallery -->
         <script>
             baguetteBox.run('.plastic-windows__full-width', {
                 animation: 'fadeIn'
             });
         </script>
-    <!-- / Initialize Lightbox-gallery --> 
+    <!-- / Initialize Lightbox-gallery -->
 <!--/ Пластиковые окна -->
-   
+
 <!-- Почему вам стоит купить пластиковые окна именно у нас? -->
     <div class="mebel-korpus__why-us mebel-korpus cs-max-width">
     <!--/ Title -->
         <div class="mebel-korpus__why-us-title">
             Почему вам стоит купить пластиковые окна именно у нас?
         </div>
-    <!-- Title -->    
+    <!-- Title -->
     <!-- Items -->
         <div class="mebel-korpus__payment-item payment-item">
             <div class="payment-item__col-1">
@@ -407,15 +407,15 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                     Мы дорожим каждым нашим клиентом! Поэтому постоянно даем скономить на покупке окон ПВХ. Проводим постоянны акции, делаем скидки на ряд позиций нашей продукции.
                 </div>
             </div>
-        </div>    
-    <!--/ Items --> 
-    </div>  
+        </div>
+    <!--/ Items -->
+    </div>
 <!--/ Почему вам стоит купить пластиковые окна именно у нас? -->
 
 
 <?php //Преимущества окон ПВХ
 include"blocks/catalog-preimusch/catalog-preimusch.php";
-?>  
+?>
 
 
 <div class="mebel-okna mebel-korpus cs-max-width">
@@ -429,7 +429,7 @@ include"blocks/catalog-preimusch/catalog-preimusch.php";
             <div class="mebel-korpus__furniture-top-title">Какие окна мы делаем. Фото готовых работ.</div>
             <!--/ Заголовок -->
         </div>
-        <!--/ Title -->    
+        <!--/ Title -->
     </div>
 </div>
         <!-- Content -->
@@ -467,21 +467,21 @@ include"blocks/catalog-preimusch/catalog-preimusch.php";
     <a href="" class="addition-first baguetteBox-gallery__item-addition okna-full__gallery__item"></a>
     <a href="" class="baguetteBox-gallery__item-addition okna-full__gallery__item"></a>
     <a href="" class="baguetteBox-gallery__item-addition okna-full__gallery__item"></a>
-<!-- Initialize Lightbox-gallery --> 
+<!-- Initialize Lightbox-gallery -->
     <script>
         baguetteBox.run('.baguetteBox-gallery__block', {
             animation: 'fadeIn'
         });
     </script>
-<!-- / Initialize Lightbox-gallery -->     
-</div>  
+<!-- / Initialize Lightbox-gallery -->
+</div>
 
 <div class="mebel-okna mebel-korpus cs-max-width">
     <div class="mebel-okna__cell mod_margin-top-10">
-        <!-- View more photo - button -->            
+        <!-- View more photo - button -->
         <div id="baguetteBox-gallery__view-more">
             <div class="mod_block-underline">Еще фото</div>
-        </div>            
+        </div>
         <script>
           $('#baguetteBox-gallery__view-more').click(function(e){
             e.preventDefault();
@@ -490,35 +490,35 @@ include"blocks/catalog-preimusch/catalog-preimusch.php";
             }
             baguetteBox.run('.baguetteBox-gallery__block', {
                 animation: 'fadeIn'
-            });              
+            });
           });
         </script>
-        <!-- / View more photo - button -->       
+        <!-- / View more photo - button -->
 
-        <!--/ Content -->    
-    <!--/ Title and tabs --> 
+        <!--/ Content -->
+    <!--/ Title and tabs -->
     </div>
 <!--/ Какие окна мы делаем. Фото готовых работ -->
 
 <?php //Как мы работаем
 include"blocks/catalog-kak-mi-rab/catalog-kak-mi-rab.php";
-?> 
-        
-</div>        
-  
+?>
+
+</div>
+
 <?php //Получите подробную информацию
 include"blocks/catalog-get-more-info/catalog-get-more-info.php";
-?>    
-    
-<div class="mebel-okna mebel-korpus cs-max-width">    
-    
-<!-- Гарантия -->        
+?>
+
+<div class="mebel-okna mebel-korpus cs-max-width">
+
+<!-- Гарантия -->
     <div class="mebel-korpus__warranty text-block">
         <div class="text-block__preview">
             <div class="text-block__title">
                 Гарантия
             </div>
-    <!--block preview-->        
+    <!--block preview-->
             <div class="text-block__text-body okna-pvh__text-body">
 <p>Одним из главных показателей качества предоставляемых работ по установке окон ПВХ является гарантийный срок, обеспечиваемый компанией-производителем. Стоит обращать особое внимание как на краткосрочную гарантию на 1-2 года, так и на долговременную, например, на 40 лет. Традиционно гарантийный срок на пластиковые окна устанавливается от 5 лет в зависимости от выбранного профиля.</p>
 
@@ -536,12 +536,12 @@ include"blocks/catalog-get-more-info/catalog-get-more-info.php";
             </div>
     <!--/block preview-->
         </div>
-    <!--read more-->    
+    <!--read more-->
         <div class="text-block__read-more">
         <!--read more - bootstrap part-->
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card">
-                <!--read more text-->   
+                <!--read more text-->
                     <div id="collapseOne" class="hide collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
                         <div class="card-block">
 <p>Постоянный мониторинг спроса и цен что позволяет нам формировать предложение на востребованную продукцию.</p>
@@ -556,40 +556,40 @@ include"blocks/catalog-get-more-info/catalog-get-more-info.php";
 <p>Немецкая плёнка Экошпон на основе ПВХ+лак.</p>
                         </div>
                     </div>
-                <!--/read more text-->    
-                <!--read more button-->   
+                <!--/read more text-->
+                <!--read more button-->
                     <div class="card-header" role="tab" id="headingOne">
                         <h5 class="mb-0">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
 
-                                <div class="cat__read-more-text">Читать подробнее об окнах, профилях, фурнитуре, стекле</div>      
-                                <div class="cat__read-more-text-hide">Свернуть</div>                          
+                                <div class="cat__read-more-text">Читать подробнее об окнах, профилях, фурнитуре, стекле</div>
+                                <div class="cat__read-more-text-hide">Свернуть</div>
 
                             </a>
                         </h5>
                     </div>
                 <!--/read more button-->
-                </div>  
+                </div>
             </div>
         <!--/read more - bootstrap part-->
         </div>
-    <!--/read more-->        
-    </div>    
+    <!--/read more-->
+    </div>
 <!--/ Гарантия -->
 
 </div>
-  
+
 <?php //Честные отзывы наших клиентов
 include"blocks/catalog-otzivi/catalog-otzivi.php";
-?> 
-   
+?>
+
 <div class="mebel-okna mebel-korpus cs-max-width">
-   
+
 <?php //Смотрите видео о нас
 include"blocks/catalog-video-about-us/catalog-video-about-us.php";
 ?>
-    
-</div>   
+
+</div>
 <!--/ Окна ПВХ -->
 
 <!--bottom separator-->
@@ -599,9 +599,9 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
 <div class="hidden-menu hidden-menu_padding">
     <div class="container">
 <!--hidden menu-->
-<!--switcher show/hide-->  
+<!--switcher show/hide-->
         <div data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="collapsed">
-            <div class="hidden-menu-switcher-block">      
+            <div class="hidden-menu-switcher-block">
 
     <!--show menu-->
                     <div class="hidden-menu-switcher hidden-menu-switcher_down">
@@ -620,12 +620,12 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
                     </div>
     <!--/hide menu-->
 
-            </div> 
+            </div>
         </div>
 <!--/switcher show/hide-->
-        <div class="collapse" id="collapseExample">    
+        <div class="collapse" id="collapseExample">
     <!--menu columns-->
-        <!--menu items-->   
+        <!--menu items-->
             <div class="hidden-menu-submenu row no-gutters">
                 <div class="hidden-menu-submenu-column col-sm-6 col-md-3 col-lg-2">
                     <div class="hidden-menu-submenu-column__title">компания</div>
@@ -672,7 +672,7 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
                     </ul>
                 </div>
         <!--/menu items-->
-        <!--form-->        
+        <!--form-->
                 <div class="hidden-menu-submenu-column hidden-menu-submenu-column_center col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-0">
                     <div class="hidden-menu-submenu-column__title hidden-menu-submenu-column__title_after-align">оставайтесь с нами</div>
                     <div class="hidden-menu-submenu-column__form">
@@ -683,15 +683,15 @@ include"blocks/catalog-video-about-us/catalog-video-about-us.php";
                         <input type="text" class="hidden-menu-submenu-column__form-email" placeholder="Email">
                         <input type="submit" class="hidden-menu-submenu-column__form-btn" value="подписаться">
                     </div>
-                </div>                
-        <!--/form-->        
-            </div>            
-    <!--/menu columns--> 
+                </div>
+        <!--/form-->
+            </div>
+    <!--/menu columns-->
         </div>
 <!--/hidden menu-->
     </div>
-</div>  
-<!--/Hidden menu-->    
+</div>
+<!--/Hidden menu-->
 <?php //get_footer();
 include 'footer.php';
 ?>
