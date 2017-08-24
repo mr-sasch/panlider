@@ -88,6 +88,9 @@
     border-radius: 3px;
     width: 100%;
 }
+.mebel-korpus__furniture-top-title.ceiling, .mebel-korpus__furniture-top-tabs.ceiling {
+  display: inline-block;
+}
 /*/ Готовые решения - ТАБЫ */
 
 /* Почему вас стоит заказать натяжные потолки именно у нас? */
@@ -117,7 +120,7 @@
 
 /* Какие потолки мы делаем */
 .mebel-potolki .mod_block-underline {
-    
+
 }
 .mebel-potolki #baguetteBox-gallery__view-more {
     text-align: right;
@@ -207,7 +210,10 @@ transform: rotate(10deg) rotateX(-80deg) rotateY(0deg) rotateZ(-70deg) scale(2);
 
 /*/ Потолки в интерьере */
 
-
+.ceiling.mebel-korpus__furniture-top-tabs .nav-link:hover,
+.ceiling.mebel-korpus__furniture-top-tabs .nav-link.active {
+    border-color: rgba(236, 238, 239, 0) !important;
+}
 
 
 

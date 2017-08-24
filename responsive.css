@@ -182,7 +182,7 @@
 /*Корпусная мебель - табы*/
 @media screen and (max-width: 1000px) {
   .mebel-korpus__furniture-top-tabs .nav-tabs {
-    justify-content: space-around; 
+    justify-content: space-around;
   }
 }
 /*/Корпусная мебель - табы*/
@@ -1132,3 +1132,21 @@ display: none;
     }
 }
 /*/ Главная */
+
+/* Слайдер на всю ширину */
+@media screen and (max-width: 1100px) {
+  .okna-full__slider-img.okna-full__slider-img-block {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .okna-full__slider-img.okna-full__slider-img-block {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .okna-full__slider-img.okna-full__slider-img-block {
+    height: 380px;
+  }
+}
+/* /Слайдер на всю ширину */

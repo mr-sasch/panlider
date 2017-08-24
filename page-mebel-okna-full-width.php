@@ -56,54 +56,11 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
     </div>
 <!--/ Title row -->
 </div>
+
 <!-- Top Slider -->
-<div class="mebel-korpus__slider-cell okna-full__slider-cell">
-    <div class="okna-full__slider">
-
-        <div class="okna-full__slider-item">
-            <div class="okna-full__slider-image">
-                <div class="okna-full__slider-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-slider.png'); background-size: cover;"></div>
-            </div>
-            <div class="okna-full__slider-item-text">
-                <div class="okna-full__slider-item-text-row1">Окна Rehau</div>
-                <div class="okna-full__slider-item-text-row2">«Аллюр»</div>
-                <div class="okna-full__slider-item-text-row3">
-                    <span class="okna-full__price-text">Всего за</span> <span class="okna-full__price">256</span><span class="okna-full__price-zero">00</span> <span class="okna-full__price-unit">р.</span>
-                </div>
-                <div class="okna-full__slider-button" data-toggle="modal" data-target="#kupit" data-whatever="@mdo" data-toggle="modal" data-target="#obratny-zvonok" data-whatever="@mdo">
-                    ОСТАВИТЬ ЗАЯВКУ
-                </div>
-            </div>
-        </div>
-
-        <div class="okna-full__slider-item">
-            <div class="okna-full__slider-image">
-                <div class="okna-full__slider-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/meb-okna-full-width/okna-full-width-slider.png'); background-size: cover;"></div>
-            </div>
-            <div class="okna-full__slider-item-text">
-                <div class="okna-full__slider-item-text-row1">Окна Rehau</div>
-                <div class="okna-full__slider-item-text-row2">«Аллюр»</div>
-                <div class="okna-full__slider-item-text-row3">
-                    <span class="okna-full__price-text">Всего за</span> <span class="okna-full__price">256</span><span class="okna-full__price-zero">00</span> <span class="okna-full__price-unit">р.</span>
-                </div>
-                <div class="okna-full__slider-button" data-toggle="modal" data-target="#kupit" data-whatever="@mdo">
-                    ОСТАВИТЬ ЗАЯВКУ
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <script>
-        $(document).ready(function(){
-            $('.okna-full__slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: true
-            });
-        });
-    </script>
-</div>
+<?php
+include"blocks/catalog-top-slider/catalog-top-slider.php"
+?>
 <!--/ Top Slider -->
 
 <!-- Пластиковые окна -->

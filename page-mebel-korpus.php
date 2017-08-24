@@ -37,6 +37,7 @@ include 'header.php';
         </script>
     </div>
 <!--/ Title row -->
+</div>
 
     <?php //Слайдер
     include"blocks/catalog-top-slider/catalog-top-slider.php"
@@ -53,6 +54,7 @@ include 'header.php';
     }
     </script>
 
+<div class="mebel-korpus cs-max-width">
 <!-- Our Furniture -->
     <div class="mebel-korpus__furniture-cell">
     <!-- Title and tabs -->
