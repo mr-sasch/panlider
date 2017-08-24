@@ -141,7 +141,7 @@
     vertical-align: middle;
     fill: #5B5951;
     transition: .3s ease;
-    margin-right: 19px;
+    margin-right: 5px;
 }
 
 .cat-door-type__img {
@@ -184,7 +184,7 @@
     cursor: pointer;
     margin-bottom: 0;
     float: right;
-    position: relative;    
+    position: relative;
 }
 .cat-door-type__interior {
     max-width: 204px;
@@ -285,7 +285,7 @@
     margin-right: 5px;
 }
 .cat-sort-by-name.active {
-    color: #1377bd;    
+    color: #1377bd;
 }
 .cat-sort-by-new {
     color: #898989;
@@ -294,7 +294,7 @@
     margin-left: 8px;
 }
 .cat-sort-by-new.active {
-    color: #1377bd;    
+    color: #1377bd;
 }
 .cat-sort-by__arrows {
     color: #898989;
@@ -405,7 +405,7 @@
     cursor: default;
 }
 .cat-sort-pagination-item:hover {
-    background-color: #ffbf03;    
+    background-color: #ffbf03;
 }
 .cat-sort-pagination-item.active {
     background-color: #ffbf03;
@@ -480,7 +480,7 @@
     transition: .3s ease;
 }
 .cat-block-top__item-align-center:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.35);       
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.35);
     border: 1px solid #959595;
     max-height: 550px;
 }
@@ -616,7 +616,7 @@
 .text-block {
     margin-top: 40px;
 }
-        /*block preview*/    
+        /*block preview*/
 .text-block__title {
     color: #010101;
     font-size: 30px;
@@ -638,7 +638,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .text-block__read-more .card-block {
-    padding: 0;  
+    padding: 0;
 }
 .text-block__read-more .card {
     background-color: rgba(247, 247, 249, 0);

@@ -849,28 +849,23 @@ display: none;
 
 
 /*********** dveri - standart ***********/
-.filter-item.filter-item__pvh {
-    margin-bottom: 20px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-}
-
-.filter-items {
-    justify-content: center;
-}
-.cat-filter__grey {
-    margin-bottom: 20px;
-}
-
-
-
-
-
 @media screen and (max-width: 1200px) {
+  .filter-item.filter-item__pvh {
+      margin-bottom: 20px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: center;
+  }
+  /*.cat-filter__grey {
+      margin-bottom: 20px;
+  }*/
+
+  .filter-items {
+      justify-content: center;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -878,9 +873,9 @@ display: none;
         margin-right: 0;
         margin-top: 10px;
     }
-    .dveri-pvh.cat-filter {
+    /*.dveri-pvh.cat-filter {
         padding-bottom: 40px;
-    }
+    }*/
     .filter-item__nestandart {
     }
     .cat-filter__grey {
@@ -1150,3 +1145,15 @@ display: none;
   }
 }
 /* /Слайдер на всю ширину */
+
+/* 560px */
+@media screen and (max-width: 560px) {
+    .okna-full__okna-furnitura {
+        flex-direction: column;
+        align-items: center;
+    }
+    .okna-full__okna-furnitura .cat-door-type {
+        margin-bottom: 20px !important;
+    }
+}
+/* /560px */

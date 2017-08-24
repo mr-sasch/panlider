@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Профспецпласт</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font-awesome-4.7.0/css/font-awesome.min.css">  
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">        
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-catalog.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-reviews.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-about-company.css">
@@ -28,28 +28,28 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-catalog-dveri-standart.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-mebel-okna-full-width.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-site-map.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">  
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/baguetteBox-photoGallery/baguetteBox.css">
-    
+
 <!-- owl carousel -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/owl-carousel/owl.theme.default.css">
 <!--/ owl carousel -->
-   
+
 <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <!--/ jquery -->
-    
+
 <!-- photo gallery -->
     <script src="<?php echo get_template_directory_uri(); ?>/baguetteBox-photoGallery/baguetteBox.js"></script>
 <!--/ photo gallery -->
-   
+
 <!--slick slider-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
 <!--/slick slider-->
-    
-<!-- Preloader - ВРЕМЕННО ОТКЛЮЧЕН -->    
+
+<!-- Preloader - ВРЕМЕННО ОТКЛЮЧЕН -->
 <!--
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style-preloader.css">
     <div class="loader-page">
@@ -59,12 +59,12 @@
     </div>
 -->
 <!--/ Preloader -->
-    
-    <?php wp_head(); ?>    
+
+    <?php wp_head(); ?>
 </head>
 
-<body> 
-            
+<body>
+
     <header>
 <!--header-->
     <!--header-top-->
@@ -77,17 +77,17 @@
                     <a href="/404-2/"><li class="header-top-menu__item">Уцененные товары</li></a>
                 <!--Заказать замер - Bootstrap-->
                     <li class="header-top-menu__item" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">Заказать замер</li>
-                <!--/Заказать замер - Bootstrap-->                    
+                <!--/Заказать замер - Bootstrap-->
                 </ul>
             <!--/ LEFT -->
-                
+
             <!-- CENTER -->
                 <div class="header-top-menu__clients-enter mobile-hide" data-toggle="modal" data-target="#vhod-dlya-klientov" data-whatever="@mdo">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/header-top-menu__clients-enter.png" alt="" class="header-top-menu__img">
                     <div class="header-top-menu__text">Вход<br>для клиентов</div>
-                </div>            
+                </div>
             <!--/ CENTER -->
-                
+
             <!-- RIGHT -->
                 <div class="container_header-top-right">
                     <div class="header-top-menu__work-time mobile-hide">
@@ -113,7 +113,7 @@
                                 <div class="header-top-menu-phones__numder">757-9-707</div>
                                 <div class="header-top-menu-phones__underline"></div>
                             </div>
-                        </label>       
+                        </label>
 
                         <div class="header-top-menu-phones__all-phones">
                             <div class="header-top-menu-phones__all-phones-item">
@@ -151,18 +151,18 @@
                         </div>
                     </div>
                 <!--/ Выпадающие телефоны -->
-                    
+
                 <!--Заказ обратного звонка - Bootstrap-->
                     <div class="call-back call-back_margin-left" data-toggle="modal" data-target="#obratny-zvonok" data-whatever="@mdo">
                         ОБРАТНЫЙ ЗВОНОК
                     </div>
-                <!--/Заказ обратного звонка - Bootstrap-->  
+                <!--/Заказ обратного звонка - Bootstrap-->
 
                 </div>
-            <!--/ RIGHT -->            
+            <!--/ RIGHT -->
             </div>
-            
-        <!-- Поделиться --> 
+
+        <!-- Поделиться -->
             <div class="header-top-menu__share mobile-hide">
                 <input type="checkbox" id="header-top-menu__share" name="header-top-menu__share" style="display: none;">
             <!-- Кнопка -->
@@ -177,24 +177,24 @@
                     <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                     <a href="https://ru.pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>                
-                </div>            
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
             <!--/ Блок соц.сетей -->
             </div>
         <!--/ Поделиться -->
-          
-        </div> 
+
+        </div>
     <!--/header-top-->
-        
+
         <div class="row_header-bottom">
             <div class="container_header-bottom cs-max-width">
         <!--header-bottom-->
             <!--logo-->
                 <a href="/" class="header-bottom-menu__logo-a">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/header-bottom-menu__logo.png" alt="" class="header-bottom-menu__logo">
-                </a>    
+                </a>
             <!--/logo-->
-            
+
             <!-- mobile menu - Button -->
                 <input type="checkbox" name="mobile-menu" id="mobile-menu_stroke-cross">
                 <div class="mobile-menu mobile-menu_positioning">
@@ -205,7 +205,7 @@
                     </label>
                 </div>
             <!--/ mobile menu - Button -->
-             
+
             <!-- MOBILE MENU -->
                 <div class="mobile-menu__menu">
                     <!--Компания-->
@@ -251,7 +251,7 @@
                         </div>
                     </div>
                     <!--/Компания-->
-                   
+
                     <!--Окна ПВХ-->
                     <input type="checkbox" name="mobile-sub-menu" id="mobile-sub-menu__okna">
                     <label class="mobile-menu__item" for="mobile-sub-menu__okna">
@@ -265,8 +265,8 @@
                         </div>
                     </div>
                     <!--/Окна ПВХ-->
-                    
-                    <!--Двери-->              
+
+                    <!--Двери-->
                     <input type="checkbox" name="mobile-sub-menu" id="mobile-sub-menu__dveri">
                     <label class="mobile-menu__item" for="mobile-sub-menu__dveri">
                         ДВЕРИ<i class="fa fa-chevron-right mobile-menu__chevron mobile-menu__chevron-dveri" aria-hidden="true"></i>
@@ -299,7 +299,7 @@
                         </div>
                     </div>
                     <!--/Двери-->
-                    
+
                     <!--Потолки-->
                     <div class="mobile-menu__item">
                         <a href="http://psp-wp.nolimit.by/%D0%BD%D0%B0%D1%82%D1%8F%D0%B6%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B8/" class="mobile-menu__item-a">
@@ -307,7 +307,7 @@
                         </a>
                     </div>
                     <!--/Потолки-->
-                    
+
                     <!--Корпусная мебель-->
                     <div class="mobile-menu__item">
                         <a href="http://psp-wp.nolimit.by/%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C/" class="mobile-menu__item-a">
@@ -315,21 +315,21 @@
                         </a>
                     </div>
                     <!--/Корпусная мебель-->
-                    
+
                     <!--Контакты-->
                     <div class="mobile-menu__item">
                         <a href="http://psp-wp.nolimit.by/404-2/" class="mobile-menu__item-a">
                             КОНТАКТЫ
                         </a>
                     </div>
-                    <!--/Контакты-->                    
+                    <!--/Контакты-->
                 </div>
-            <!--/ MOBILE MENU --> 
-              
-                <!-- Нижнее меню в Хэдере -->               
+            <!--/ MOBILE MENU -->
+
+                <!-- Нижнее меню в Хэдере -->
                 <ul class="header-bottom-menu">
                     <li class="header-bottom-menu__item header-bottom-menu__item-company active">
-                        <div class="header-bottom-menu__item-title">КОМПАНИЯ                        
+                        <div class="header-bottom-menu__item-title">КОМПАНИЯ
                             <div id="header-bottom-menu__item-arrow"></div>
                         </div>
                         <div class="header-hover-menu__container">
@@ -345,17 +345,16 @@
                         </div>
                     </li>
                     <li class="header-bottom-menu__item">
-                        <div class="header-bottom-menu__item-title">ОКНА ПВХ                       
+                        <div class="header-bottom-menu__item-title">ОКНА ПВХ
                             <div id="header-bottom-menu__item-arrow"></div>
                         </div>
                         <div class="header-hover-menu__container">
-                            <ul class="header-hover-menu">
-                                <a href="/окна-пвх/окна-пвх-полная-ширина/"><li class="header-hover-menu-item">Окна ПВХ (полная ширина)</li></a>
+                            <ul class="header-hover-menu">                                <a href="/окна-пвх/окна-пвх-полная-ширина/"><li class="header-hover-menu-item">Окна ПВХ (полная ширина)</li></a>                                <a href="#"><li class="header-hover-menu-item">Балконные рамы</li></a>
                             </ul>
                         </div>
                     </li>
                     <li class="header-bottom-menu__item">
-                        <div class="header-bottom-menu__item-title">ДВЕРИ                        
+                        <div class="header-bottom-menu__item-title">ДВЕРИ
                             <div id="header-bottom-menu__item-arrow"></div>
                         </div>
                         <div class="header-hover-menu__container">
@@ -382,12 +381,12 @@
                         <a href="/404-2/">
                             <div class="header-bottom-menu__item-title">КОНТАКТЫ</div>
                         </a>
-                    </li>                    
-                </ul>                
+                    </li>
+                </ul>
                 <!--/ Нижнее меню в Хэдере -->
-                
+
                 <!-- Выпадающие телефоны -->
-                
+
                 <div class="header-top-menu-phones header-top-menu-phones__hide-show mobile-hide_early">
                     <input type="checkbox" name="header-top-menu-phones__phone-top" id="header-top-menu-phones__phone-top-II">
                         <label for="header-top-menu-phones__phone-top-II" class="header-top-menu-phones__phone-top">
@@ -397,7 +396,7 @@
                                 <div class="header-top-menu-phones__numder">757-9-707</div>
                                 <div class="header-top-menu-phones__underline"></div>
                             </div>
-                        </label>       
+                        </label>
 
                         <div class="header-top-menu-phones__all-phones header-top-menu-phones__all-phones-II">
                             <div class="header-top-menu-phones__all-phones-item header-top-menu-phones__all-phones-item-sub">
@@ -434,17 +433,17 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 <!--/ Выпадающие телефоны -->
-                
+
             <!--header-bottom__search-->
                 <form class="header-bottom-menu-search">
                     <input type="text" name="search">
                 </form>
             <!--/header-bottom__search-->
         <!--header-bottom-->
-            </div>   
-            
+            </div>
+
         <!-- fix row_header-top -->
             <script>
             $(document).ready(function () {
@@ -468,8 +467,8 @@
             });
             </script>
         <!-- /fix row_header-top -->
-            
-<!--calculator and metering-->    
+
+<!--calculator and metering-->
             <script>
             /*show and hide metering*/
                 $(document).scroll(function () {
@@ -480,8 +479,8 @@
                         $('.slider-side-block').fadeOut();
                     }
                 });
-            /*/show and hide metering*/        
-            </script>       
+            /*/show and hide metering*/
+            </script>
             <div class="slider-side-block mobile-hide">
             <!--calculator-->
                 <div class="slider-side-block__calc" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
@@ -495,9 +494,9 @@
                 </div>
             <!--/metering-->
             </div>
-<!--/calculator and metering-->                  
-        </div>  
-        
+<!--/calculator and metering-->
+        </div>
+
 <!-- Модальные окна -->
     <!-- Заказать замер - Bootstrap -->
 
@@ -532,7 +531,7 @@
         </div>
 
     <!--/ Заказать замер - Bootstrap -->
-    
+
     <!-- Получить консультацию - Bootstrap -->
 
         <div class="simple-modal modal fade" id="poluchit-consult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -566,7 +565,7 @@
         </div>
 
     <!--/ Получить консультацию - Bootstrap -->
-    
+
     <!-- Заказ обратного звонка - Bootstrap -->
         <div class="simple-modal modal fade" id="obratny-zvonok" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -598,7 +597,7 @@
             </div>
         </div>
     <!-- /Заказ обратного звонка - Bootstrap -->
-    
+
     <!-- Вход  для клиентов - Bootstrap -->
         <div class="simple-modal simple-modal__vhod-dlya-klientov modal fade" id="vhod-dlya-klientov" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -633,7 +632,7 @@
                         </div>
                         <div class="forget-pass">
                             <a class="forget-pass__a" href="#">Забыли пароль?</a>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="footer-forms__button">ВОЙТИ НА САЙТ</button>
@@ -650,7 +649,7 @@
             </div>
         </div>
     <!-- /Вход  для клиентов - Bootstrap -->
-    
+
     <!-- Kupit` -->
         <div class="simple-modal simple-modal__kupit modal fade" id="kupit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -660,7 +659,7 @@
                     </div>
                     <div class="modal-content__right">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Купить дверь межкомнатную 
+                            <h5 class="modal-title" id="exampleModalLabel">Купить дверь межкомнатную
     Eldorf</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
@@ -686,10 +685,10 @@
                 </div>
             </div>
         </div>
-    
+
     <!--/ Kupit` -->
-    
+
 <!--/ Модальные окна -->
-  
+
 <!--/header-->
     </header>

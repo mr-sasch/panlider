@@ -40,6 +40,9 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
             <div onclick="furnitureActive()" id="furnitureActive" class="cat-door-type cat-door-type__furniture mod_margin-0-15">
                 <img class="cat-door-type__img" src="<?php echo get_template_directory_uri(); ?>/images/meb-okna/meb-korp__top-row-furniture.png" alt="">Фурнитура
             </div>
+            <div onclick="accessoriesActive()" id="accessoriesActive" class="cat-door-type cat-door-type__furniture mod_margin-0-15">
+                <img class="cat-door-type__img" src="<?php echo get_template_directory_uri(); ?>/images/meb-okna/meb-korp__top-row-furniture.png" alt="">Аксессуары
+            </div>
 
             <script>
                 function mejkomActive() {
@@ -50,6 +53,9 @@ document.getElementById("page-title").innerHTML = "Окна ПВХ";
                 }
                 function furnitureActive() {
                     document.getElementById("furnitureActive").classList.toggle("active");
+                }
+                function accessoriesActive() {
+                    document.getElementById("accessoriesActive").classList.toggle("active");
                 }
             </script>
         </div>

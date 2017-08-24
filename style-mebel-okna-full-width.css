@@ -2,6 +2,7 @@
 .okna-full__okna-furnitura {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 .review__botton img {
     margin-right: 8px;
@@ -36,13 +37,6 @@
 }
 
 /*Slider - top*/
-
-/*Врем*/
-/*
-.okna-full__slider-image {
-    width: 100%;
-}
-*/
 
 .okna-full__slider-img.okna-full__slider-img-block {
     width: 1920px;
@@ -477,8 +471,18 @@ button#next-button {
     outline: none;
     background: none;
 }
-
-
 /*/Карточка товара*/
+
+/*Кнопки - Окна ПВХ - Фурнитура - Аксессуары*/
+.okna-full__okna-furnitura #mejkomActive {
+    min-width: 125px;
+}
+.okna-full__okna-furnitura #furnitureActive {
+    min-width: 140px;
+}
+.okna-full__okna-furnitura #accessoriesActive {
+    min-width: 150px;
+}
+/*/Кнопки - Окна ПВХ - Фурнитура - Аксессуары*/
 
 /*/Окна ПВХ - полная ширина*/
