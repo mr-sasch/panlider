@@ -353,7 +353,7 @@
 /*.nav-item:hover {
     border: 1px solid #1377bd;
 }*/
-.nav-link:hover {
+.nav-link-with-img:hover {
     color: #1377bd;
     border: 1px solid #1377bd !important;
 }
