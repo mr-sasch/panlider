@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Профспецпласт</title>
@@ -65,6 +64,7 @@
 
 <body>
 
+<!-- Хэдер -->
     <header>
 <!--header-->
     <!--header-top-->
@@ -72,7 +72,7 @@
             <div class="container_header-top cs-max-width">
             <!-- LEFT -->
                 <ul class="header-top-menu header-top-menu_margin mobile-hide">
-                    <a href="/новости/"><li class="header-top-menu__item active">Новости</li></a>
+                    <a href="/новости/"><li class="header-top-menu__item">Новости</li></a>                    <!-- пункт меню делается акктивным путем добавления класса active для тега a -->
                     <a href="/404-2/"><li class="header-top-menu__item">Услуги</li></a>
                     <a href="/404-2/"><li class="header-top-menu__item">Уцененные товары</li></a>
                 <!--Заказать замер - Bootstrap-->
@@ -328,8 +328,8 @@
 
                 <!-- Нижнее меню в Хэдере -->
                 <ul class="header-bottom-menu">
-                    <li class="header-bottom-menu__item header-bottom-menu__item-company active">
-                        <div class="header-bottom-menu__item-title">КОМПАНИЯ
+                    <li class="header-bottom-menu__item header-bottom-menu__item-company">                    <!-- активный пункт меню подсвечивается добавлением класса active тегу li -->
+                        <div class="header-bottom-menu__item-title mod_cursor-default">КОМПАНИЯ
                             <div id="header-bottom-menu__item-arrow"></div>
                         </div>
                         <div class="header-hover-menu__container">
@@ -345,7 +345,7 @@
                         </div>
                     </li>
                     <li class="header-bottom-menu__item">
-                        <div class="header-bottom-menu__item-title">ОКНА ПВХ
+                        <div class="header-bottom-menu__item-title mod_cursor-default">ОКНА ПВХ
                             <div id="header-bottom-menu__item-arrow"></div>
                         </div>
                         <div class="header-hover-menu__container">
@@ -354,7 +354,7 @@
                         </div>
                     </li>
                     <li class="header-bottom-menu__item">
-                        <div class="header-bottom-menu__item-title">ДВЕРИ
+                        <div class="header-bottom-menu__item-title mod_cursor-default">ДВЕРИ
                             <div id="header-bottom-menu__item-arrow"></div>
                         </div>
                         <div class="header-hover-menu__container">
@@ -367,17 +367,17 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="header-bottom-menu__item">
+                    <li class="header-bottom-menu__item mod_cursor-pointer">
                         <a href="/натяжные-потолки/">
                             <div class="header-bottom-menu__item-title">ПОТОЛКИ</div>
                         </a>
                     </li>
-                    <li class="header-bottom-menu__item">
+                    <li class="header-bottom-menu__item mod_cursor-pointer">
                         <a href="/корпусная-мебель/">
                             <div class="header-bottom-menu__item-title">КОРПУСНАЯ МЕБЕЛЬ</div>
                         </a>
                     </li>
-                    <li class="header-bottom-menu__item">
+                    <li class="header-bottom-menu__item mod_cursor-pointer">
                         <a href="/404-2/">
                             <div class="header-bottom-menu__item-title">КОНТАКТЫ</div>
                         </a>
@@ -385,9 +385,7 @@
                 </ul>
                 <!--/ Нижнее меню в Хэдере -->
 
-                <!-- Выпадающие телефоны -->
-
-                <div class="header-top-menu-phones header-top-menu-phones__hide-show mobile-hide_early">
+                <!-- Выпадающие телефоны -->                <div class="header-top-menu-phones header-top-menu-phones__hide-show mobile-hide_early">
                     <input type="checkbox" name="header-top-menu-phones__phone-top" id="header-top-menu-phones__phone-top-II">
                         <label for="header-top-menu-phones__phone-top-II" class="header-top-menu-phones__phone-top">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/call-blue.png" alt="" class="header-top-menu-phones__handset">
@@ -479,28 +477,10 @@
                         $('.slider-side-block').fadeOut();
                     }
                 });
-            /*/show and hide metering*/
-            </script>
-            <div class="slider-side-block mobile-hide">
-            <!--calculator-->
-                <div class="slider-side-block__calc" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/slider-side-block__calc.png">
-                </div>
-            <!--/calculator-->
+            /*/show and hide metering*/            </script>
+            <div class="slider-side-block mobile-hide">            <!-- calculator -->                <div class="slider-side-block__calc" data-toggle="modal" data-target="#rasschitat-stoimost" data-whatever="@mdo">                    <img src="<?php echo get_template_directory_uri(); ?>/images/slider-side-block__calc.png">                </div>            <!-- /calculator -->            <!--metering-->                <div class="slider-side-block__metering" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">                    <img src="<?php echo get_template_directory_uri(); ?>/images/slider-side-block__metering.png">                </div>            <!--/metering-->            </div><!--/calculator and metering-->        </div>
 
-            <!--metering-->
-                <div class="slider-side-block__metering" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/slider-side-block__metering.png">
-                </div>
-            <!--/metering-->
-            </div>
-<!--/calculator and metering-->
-        </div>
-
-<!-- Модальные окна -->
-    <!-- Заказать замер - Bootstrap -->
-
-        <div class="simple-modal modal fade" id="zakaz-zamera" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Модальные окна --><!-- Рассчитать стоимость - Bootstrap -->    <div class="simple-modal modal fade" id="rasschitat-stoimost" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">        <div class="modal-dialog" role="document">            <div class="modal-content">                <div class="modal-header">                    <h5 class="modal-title" id="exampleModalLabel">Рассчитать стоимость</h5>                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">                        <span aria-hidden="true">&times;</span>                    </button>                </div>                <div class="modal-description">                    Оставьте Ваши контактные данные<br>                    наш специалист сам перезвонит Вам                </div>                <div class="modal-body">                    <form>                        <div class="form-group">                            <input type="text" class="form-control" id="recipient-name" placeholder="Ваше имя">                        </div>                        <div class="form-group">                            <input type="tel" class="form-control" id="recipient-tel" placeholder="Номер телефона">                        </div>                        <div class="form-group">                            <input type="file" class="input-type-file">                        </div>                    </form>                </div>                <div class="modal-footer">                    <button type="button" class="footer-forms__button">РАССЧИТАТЬ СТОИМОСТЬ</button>                </div>            </div>        </div>    </div>    <!--/ Рассчитать стоимость - Bootstrap -->    <!-- Заказать замер - Bootstrap -->        <div class="simple-modal modal fade" id="zakaz-zamera" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -528,13 +508,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-    <!--/ Заказать замер - Bootstrap -->
-
-    <!-- Получить консультацию - Bootstrap -->
-
-        <div class="simple-modal modal fade" id="poluchit-consult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>    <!--/ Заказать замер - Bootstrap -->    <!-- Получить консультацию - Bootstrap -->        <div class="simple-modal modal fade" id="poluchit-consult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -562,12 +536,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-    <!--/ Получить консультацию - Bootstrap -->
-
-    <!-- Заказ обратного звонка - Bootstrap -->
-        <div class="simple-modal modal fade" id="obratny-zvonok" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>    <!--/ Получить консультацию - Bootstrap -->
+    <!-- Заказ обратного звонка - Bootstrap -->        <div class="simple-modal modal fade" id="obratny-zvonok" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -595,11 +565,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    <!-- /Заказ обратного звонка - Bootstrap -->
-
-    <!-- Вход  для клиентов - Bootstrap -->
-        <div class="simple-modal simple-modal__vhod-dlya-klientov modal fade" id="vhod-dlya-klientov" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>    <!-- /Заказ обратного звонка - Bootstrap -->    <!-- Вход  для клиентов - Bootstrap -->        <div class="simple-modal simple-modal__vhod-dlya-klientov modal fade" id="vhod-dlya-klientov" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -647,48 +613,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    <!-- /Вход  для клиентов - Bootstrap -->
-
-    <!-- Kupit` -->
-        <div class="simple-modal simple-modal__kupit modal fade" id="kupit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-content__left">
-                        <img class="modal-content-left__img" src="<?php echo get_template_directory_uri(); ?>/images/modals-kupit-img.png" alt="">
-                    </div>
-                    <div class="modal-content__right">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Купить дверь межкомнатную
-    Eldorf</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="recipient-name" placeholder="Ваше имя">
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" id="recipient-tel" placeholder="Номер телефона">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="recipient-mail" placeholder="Email">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="footer-forms__button">ОСТАВИТЬ ЗАЯВКУ</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <!--/ Kupit` -->
-
-<!--/ Модальные окна -->
+        </div>    <!-- /Вход  для клиентов - Bootstrap -->    <!-- Kupit` -->        <div class="simple-modal simple-modal__kupit modal fade" id="kupit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">            <div class="modal-dialog" role="document">                <div class="modal-content">                    <div class="modal-content__left">                        <img class="modal-content-left__img" src="<?php echo get_template_directory_uri(); ?>/images/modals-kupit-img.png" alt="">                    </div>                    <div class="modal-content__right">                        <div class="modal-header">                            <h5 class="modal-title" id="exampleModalLabel">Купить дверь межкомнатную Eldorf</h5>                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">                                <span aria-hidden="true">&times;</span>                            </button>                        </div>                        <div class="modal-body">                            <form>                                <div class="form-group">                                    <input type="text" class="form-control" id="recipient-name" placeholder="Ваше имя">                                </div>                                <div class="form-group">                                    <input type="tel" class="form-control" id="recipient-tel" placeholder="Номер телефона">                                </div>                                <div class="form-group">                                    <input type="email" class="form-control" id="recipient-mail" placeholder="Email">                                </div>                            </form>                        </div>                        <div class="modal-footer">                            <button type="button" class="footer-forms__button">ОСТАВИТЬ ЗАЯВКУ</button>                        </div>                    </div>                </div>            </div>        </div>    <!--/ Kupit` --><!--/ Модальные окна -->
 
 <!--/header-->
     </header>
+<!-- /Хэдер -->

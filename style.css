@@ -118,6 +118,12 @@ html, body {
 .mod_max-wipth-100p {
     max-width: 100% !important;
 }
+.mod_cursor-default {
+  cursor: pointer;
+}
+.mod_cursor-default {
+  cursor: default;
+}
 
 /* background-color */
 .mod_bg-color-f59777 {
@@ -1803,6 +1809,10 @@ img.header-top-menu__img {
     border-radius: 5px;
     border: 2px solid #1377bd;
     background-color: #ffffff;
+}
+.input-type-file {
+    color: #555555;
+    font-size: 14px;
 }
     /*/ simple-modal */
 
