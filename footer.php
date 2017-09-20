@@ -1,7 +1,7 @@
 
     <footer class="footer">
         <div class="container">
-  
+
 
             <div class="row no-gutters">
 <!--column 1-->
@@ -214,7 +214,7 @@
 <!--/ slick slider -->
 
 <!-- Потолки в интерьере -->
-    <!--<script src="<?php echo get_template_directory_uri(); ?>/js/potolki-change-colors.js"></script>-->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/potolki-change-colors.js"></script>
 <!--/ Потолки в интерьере -->
 
 <!-- owl carousel -->

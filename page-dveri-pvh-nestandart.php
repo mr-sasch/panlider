@@ -6,11 +6,11 @@
 
 <?php //get_header();
 include 'header.php';
-?>  
-       
+?>
+
 <link rel="stylesheet" href="http://localhost/psp-wp/wp-content/themes/psp/style-catalog.css">
-              
-<!--breadcrumbs-->        
+
+<!--breadcrumbs-->
 <div class="breadcrumb_bg container-fluid no-padding">
     <div class="container">
         <ol class="breadcrumb">
@@ -21,13 +21,13 @@ include 'header.php';
         </ol>
     </div>
 </div>
-<!--/breadcrumbs-->  
+<!--/breadcrumbs-->
 
 <!--header - II -->
     <?php include"blocks/header-II/header-II.php" ?>
 <!--/header - II -->
 
-<!--filter-->    
+<!--filter-->
     <?php include"blocks/filter-new/filter-new.php"; ?>
 <!--/filter-->
 
@@ -37,7 +37,7 @@ include 'header.php';
         <div class="text-block__title">
         Готовые конфигурации нестандартных входных металлических дверей
         </div>
-    </div>    
+    </div>
     <div class="cat-filter-btn dveri-pvh__zakazat-zamer" data-toggle="modal" data-target="#zakaz-zamera" data-whatever="@mdo">
         <img class="dveri-pvh__zakazat-zamer-img" src="<?php echo get_template_directory_uri(); ?>/images/dveri-pvh/dveri-pvh__zakazat-zamer.png" alt="">
         <span class="dveri-pvh__zakazat-zamer-text">Заказать дверь по своим размерам</span>
@@ -48,11 +48,11 @@ include 'header.php';
 <!--/catalog block - title-->
 
 <!--catalog block-->
-<?php include"blocks/catalog-block/catalog-block.php"; ?> 
+<?php include"blocks/catalog-block/catalog-block.php"; ?>
 <!--/catalog block - main block-->
 
 <!--Преимущества входных аллюминиевых дверей-->
-<div class="mebel-korpus__preimusch dveri-pvh-nestandart white-block">       
+<div class="mebel-korpus__preimusch dveri-pvh-nestandart white-block">
 <!-- Title -->
     <div class="white-block__title">Преимущества входных аллюминиевых дверей</div>
 <!--/ Title -->
@@ -70,7 +70,7 @@ include 'header.php';
                     Алюминий – это лёгкий и прочный материал. Ему не страшны большие нагрузки, а также агрессивное воздействие окружающей среды.
                 </div>
             </div>
-        </div>            
+        </div>
     </div>
     <div class="mebel-korpus__preimusch-item">
         <div class="mebel-korpus__preimusch-item-content">
@@ -85,7 +85,7 @@ include 'header.php';
                     Алюминий – это материал, который используется в производстве дверей как для магазинов, офисов, точек продаж, предприятий, так и для частных домов.
                 </div>
             </div>
-        </div>            
+        </div>
     </div>
     <div class="mebel-korpus__preimusch-item">
         <div class="mebel-korpus__preimusch-item-content">
@@ -100,9 +100,9 @@ include 'header.php';
                     Входные двери производятся на новейшем оборудовании с использованием инноваций. Это делает их долговечными и надёжными.
                 </div>
             </div>
-        </div>            
+        </div>
     </div>
-<!--/ Items -->    
+<!--/ Items -->
 </div>
 <!--/Преимущества входных аллюминиевых дверей-->
 
@@ -110,7 +110,7 @@ include 'header.php';
     <div class="text-block__preview">
         <div class="text-block__title">
 Куда устанавливают входные двери из алюминиевого профиля?
-        </div>    
+        </div>
         <div class="text-block__text-body">
 Благодаря своим высоким качествам – долговечности, прочности, надёжности, стойкости, привлекательному внешнему виду – алюминиевые двери имеют широкий спектр установки. Их используют для установки в офисах, небольших магазинах, на предприятиях, частных домах или коттеджах.
 <br><br>
@@ -129,70 +129,70 @@ include 'header.php';
                 <img src="<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-where3.png" alt="" class="nestandart-where-image">
                 <div class="nestandart-where-img-title">Загородный дом</div>
             </div>
-        </div>        
+        </div>
     </div>
     <div class="text-block__preview">
         <div class="text-block__title">
 Профили алюминиевых входных групп
-        </div>    
+        </div>
         <div class="text-block__text-body">
             <p style="color: #1377bd; font-size: 18px; font-weight: bold;">Холодное остекление входных групп</p>
             <p>В холодном остеклении используются профили Sial КП45 и Alumark S44 и S50. Толщина алюминиевых входных уличных дверей варьируется от 44 до 50 мм. Данные системы представляют собой набор профилей без термоизолятора. Они применяются в производстве входных дверных групп для офисов, предприятий, небольших магазинов. Sial – это профили отечественного производства, реализующиеся по приемлемой цене. Профили Alumark производятся из качественных европейских комплектующих и стоят дороже.</p>
-        </div>   
+        </div>
         <div class="text-block__text-body">
             <p style="color: #1377bd; font-size: 18px; font-weight: bold;">Теплое остекление входных групп</p>
             <p>Для тёплого остекления используются профили Sial КПТ74 и Alumark S70. Система Sial КПТ74 имеет три камеры и толщину 74 мм. В терморазрыве применяется специальная термоставка из полиамида шириной 24 мм. Профили Alumark S70 имеют штапики с шагом 5 мм, а также качественные внутренние уплотнители. Их использование позволяет устанавливать одинарное стекло или глухие панели разной толщины: от 10 до 54 мм. «Тёплый» Alumark по своим качествам похож на ПВХ-системы.</p>
         </div>
     </div>
-    
+
     <div class="text-block__preview">
         <div class="text-block__title">
 Алюминиевые входные двери: дополнительные возможности.
-        </div>    
+        </div>
         <div class="text-block__text-body">
-           
+
             <!-- Слайдер -->
 <!--
             <div class="dop-vozm-image">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-dop.png" alt="" class="dop-vozm-img">
             </div>
 -->
-            
+
             <div class="alum-door-slider-cell">
                 <div class="alum-door-slider">
 
                     <div class="alum-door-slider__item">
                         <div class="alum-door-slider-image">
-                            <div class="okna-full__slider-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-dop.png'); background-size: cover;"></div>
-                        </div>   
+                            <div class="okna-full__slider-img okna-full__slider-img-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-dop.png'); background-size: cover;"></div>
+                        </div>
                     </div>
 
                     <div class="alum-door-slider__item">
                         <div class="alum-door-slider-image">
-                            <div class="okna-full__slider-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-dop.png'); background-size: cover;"></div>
-                        </div>   
+                            <div class="okna-full__slider-img okna-full__slider-img-img okna-full__slider-img-block" style="background: center no-repeat url('<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-dop.png'); background-size: cover;"></div>
+                        </div>
                     </div>
 
-                </div>    
+                </div>
                 <script>
                     $(document).ready(function(){
                         $('.alum-door-slider').slick({
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             arrows: true
-                        });  
-                    });  
+                        });
+                    });
                 </script>
             </div>
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
             <!--/ Слайдер -->
-            
-            
+
+
             <p style="color: #1377bd; font-size: 18px; font-weight: bold;">Выбор двери по количеству створок</p>
             <p>Входные двери из алюминия различаются количеством створок.</p>
             <p><strong>Одностворчатые двери</strong> подойдут для установки в небольшой проём, в который не представляется возможным установка двери другого вида. Алюминиевые двери с одной створкой также могут использоваться в качестве межкомнатных.</p>
@@ -202,7 +202,7 @@ include 'header.php';
             <p>Входные алюминиевые двери для частного дома или офиса могут иметь разное цветовое оформление. Их покраска осуществляется по цветовой шкале RAL. Такие двери производятся дольше обычных, однако идеально подходят интерьеру помещения. Со временем краска не теряет цвета и яркости.</p>
             <p style="color: #1377bd; font-size: 18px; font-weight: bold;">Выбор стеклопакета для дверей</p>
             <p>Компания «Профспецпласт» предлагает своим клиентам установить в входные двери особый стеклопакет. Мы устанавливаем следующие виды стеклопакетов:</p>
-            <p><strong>Противоударный.</strong></p> 
+            <p><strong>Противоударный.</strong></p>
             <p>Обеспечивает защиту от внешних вторжений.</p>
             <p><strong>Противошумный.</strong></p>
             <p>Не пропускает лишний шум со стороны улицы.</p>
@@ -230,10 +230,10 @@ include 'header.php';
                 Такие стеклопакеты производятся путём нанесения слоя оксида металла на поверхность стекла. Они защищают помещение от постороннего взора, но нисколько не искажают вид за дверями.
             </div>
         </div>
-    </div> 
+    </div>
 </div>
 
-<div class="mebel-korpus__preimusch dveri-pvh-nestandart white-block"> 
+<div class="mebel-korpus__preimusch dveri-pvh-nestandart white-block">
     <img class="nestandart-exclamation-img" src="<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-exclamation.png" alt="" class="nestandart-where-image">Ко всему прочему, вы можете выбрать как полностью прозрачные алюминиевые двери, так и с повышающей прочность перемычкой посередине.
 </div>
 
@@ -241,7 +241,7 @@ include 'header.php';
     <div class="text-block__preview">
         <div class="text-block__title">
             Дополнительные опции
-        </div>    
+        </div>
         <div class="text-block__text-body">
             <p>Наша компания комплектует двери дополнительными элементами. Специалисты Алма устанавливают алюминиевый порог для лучшего примыкания входной двери к полу. Вы можете заказать у нас установку доводчика для надёжного закрывания входной двери. Кроме того мы предлагаем:</p>
             <ul class="dveri-pvh__popular-models">
@@ -252,12 +252,12 @@ include 'header.php';
             </ul>
         </div>
     </div>
-    
-    
+
+
     <div class="text-block__preview">
         <div class="text-block__title">
             Установка рольставней на входные группы дверей
-        </div>    
+        </div>
         <div class="text-block__text-body">
             <div class="nestandart-where-img nestandart-rolstavni-image">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/dveri-pvh-nestandart/nestandart-rolstavni.png" alt="" class="nestandart-rolstavni-img">
@@ -276,11 +276,11 @@ include 'header.php';
 Рольставни устанавливаются после монтажа входной группы дверей как в производственных помещения, так и в загородных домах. Данная конструкция способна заменить собой сами входные двери. Наши специалисты занимаются установкой рольставней без монтажа входных дверных групп.
         </div>
     </div>
-    
+
     <div class="text-block__preview">
         <div class="text-block__title">
             Стоимость алюминиевых дверей
-        </div>    
+        </div>
         <div class="text-block__text-body">
             Компания «Профспецпласт» предлагает умеренные цены на алюминиевые двери со стеклом. Обладая большим опытом установки входных групп, мы работаем в Москве и Московской области. Если вы затрудняетесь с выбором, обращайтесь к менеджерам нашей компании: они предоставят полную информацию. Компания «Алма»: за нашими дверями будущее!
             <div class="cat-filter-btn dveri-pvh__zakazat-zamer nestandart-uznat-stoimost" data-toggle="modal" data-target="#obratny-zvonok" data-whatever="@mdo">
@@ -303,10 +303,10 @@ include 'header.php';
 <div class="hidden-menu hidden-menu_padding">
         <div class="container">
 <!--hidden menu-->
-    <!--switcher show/hide-->  
+    <!--switcher show/hide-->
             <div data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="collapsed">
-                <div class="hidden-menu-switcher-block">      
-                    
+                <div class="hidden-menu-switcher-block">
+
         <!--show menu-->
                         <div class="hidden-menu-switcher hidden-menu-switcher_down">
                             <div class="hidden-menu-switcher__arrow">
@@ -323,13 +323,13 @@ include 'header.php';
                             <div class="hidden-menu-switcher__text">СКРЫТЬ МЕНЮ</div>
                         </div>
         <!--/hide menu-->
-                    
-                </div> 
+
+                </div>
             </div>
     <!--/switcher show/hide-->
-            <div class="collapse" id="collapseExample">    
+            <div class="collapse" id="collapseExample">
         <!--menu columns-->
-            <!--menu items-->   
+            <!--menu items-->
                 <div class="hidden-menu-submenu row no-gutters">
                     <div class="hidden-menu-submenu-column col-sm-6 col-md-3 col-lg-2">
                         <div class="hidden-menu-submenu-column__title">компания</div>
@@ -376,7 +376,7 @@ include 'header.php';
                         </ul>
                     </div>
             <!--/menu items-->
-            <!--form-->        
+            <!--form-->
                     <div class="hidden-menu-submenu-column hidden-menu-submenu-column_center col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-0">
                         <div class="hidden-menu-submenu-column__title hidden-menu-submenu-column__title_after-align">оставайтесь с нами</div>
                         <div class="hidden-menu-submenu-column__form">
@@ -387,14 +387,14 @@ include 'header.php';
                             <input type="text" class="hidden-menu-submenu-column__form-email" placeholder="Email">
                             <input type="submit" class="hidden-menu-submenu-column__form-btn" value="подписаться">
                         </div>
-                    </div>                
-            <!--/form-->        
-                </div>            
-        <!--/menu columns--> 
+                    </div>
+            <!--/form-->
+                </div>
+        <!--/menu columns-->
             </div>
 <!--/hidden menu-->
         </div>
-    </div>  
+    </div>
 
 <?php //get_footer();
 include 'footer.php';

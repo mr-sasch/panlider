@@ -615,7 +615,8 @@ img.header-top-menu__img {
 /* /Трансформация второго меню при скролле */
 
 .header-bottom-menu__item:hover,
-.header-bottom-menu__item.active {
+.header-bottom-menu__item.active,
+.header-bottom-menu__item.active a {
     color: #1377bd;
 }
 .header-bottom-menu__item:last-child {
@@ -1775,6 +1776,20 @@ img.header-top-menu__img {
     background-color: rgba(241, 241, 241, 0);
     opacity: 1;
 }
+.modal-input-padding {
+  padding-left: 31px;
+  box-sizing: border-box;
+}
+textarea.modal-input-padding {
+    width: 100%;
+}
+.form-file {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: .8;
+    color: #464a4c;
+}
+
 .simple-modal #recipient-name {
     background: url(images/modals-recipient-grey.png) 9px 50% no-repeat;
     padding-left: 31px;

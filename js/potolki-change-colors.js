@@ -1,4 +1,4 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
 	//при загрузке страниц устанавливаем фон активного
 	var background = $('.back-toggles ul li a.active').attr('style');
 	$('.image-box .bg').attr('style',background);
@@ -10,4 +10,4 @@
 		var background = $(this).attr('style');
 		$('.image-box .bg').attr('style',background);
 	});
-});*/
+});

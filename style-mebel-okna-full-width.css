@@ -55,6 +55,9 @@
 .okna-full__slider-img {
     width: 100%;
 }
+.okna-full__slider-img-img {
+  height: 272px !important;
+}
             /* Контейнер */
 .okna-full__slider .slick-list.draggable {
     position: relative; /*для выравнивания буллетов - absolute*/
@@ -109,7 +112,7 @@
     display: inline-block;
     position: relative;
     top: 20px;
-    
+
     z-index: 1;
 }
 .okna-full__slider .slick-next:hover,

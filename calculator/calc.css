@@ -1,0 +1,136 @@
+/* Блок калькулятор */
+	/* Временные стили */
+div {
+	border: 1px solid grey;
+	box-sizing: border-box;
+	padding: 1px;
+	min-height: 30px;
+}
+.width-container {
+	width: 1000px;
+	margin: auto;
+}
+	/*/ Временные стили */
+
+/* Общие стили */
+.calc {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+/* /Общие стили */
+
+/* Заголовок */
+.calc-title {
+	font-size: 18px;
+}
+/* /Заголовок */
+
+/* Блок с изображениями(левый) */
+.calc-images {
+	width: 40%;
+}
+/* Блок с изображениями(левый) */
+
+/* Панель выбора изображений */
+/* Главное окно */
+/* Изображение окна */
+/* Вертикальный ползунок */
+/* Статичное значение вертикального ползунка */
+/* Горизонтальный ползунок */
+/* Статичное значение горизонтального ползунка */
+
+/* Блок параметров(правый) */
+.calc-parameters {
+	width: 60%;
+}
+/* Блок параметров(правый) */
+
+/* Заголовки */
+
+/* Первая и вторая колонки */
+.calc-parameters__items {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.calc-parameters__items-col1,
+.calc-parameters__items-col2 {
+	width: 50%;
+}
+
+/* /Первая и вторая колонки */
+
+/* Первая колонка */
+
+/* /Первая колонка */
+
+/* Вторая колонка */
+/* /Вторая колонка */
+
+/* Блок стоимость */
+.calc-price {
+	width: 60%;
+}
+/* /Блок стоимость */
+
+/* Стоимость */
+
+/* /Стоимость */
+
+/* Кнопка "Оставить заявку для точного рассчета" */
+
+/* /Кнопка "Оставить заявку для точного рассчета" */
+
+/* Примечание */
+/* /Блок калькулятор */
+
+
+/* Адаптивность */
+/* Первая точка */
+@media screen and (max-width: 700px) {
+/* Первая и вторая колонки */
+	.calc-parameters__items {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.calc-parameters__items-col1,
+	.calc-parameters__items-col2 {
+		width: 100%;
+	}
+	/* /Первая и вторая колонки */
+/* Общие стили */
+	.calc {
+    justify-content: center;
+	}
+/* /Общие стили */
+}
+
+/* Вторая точка */
+@media screen and (max-width: 500px) {
+	/* Общие стили */
+	.calc {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+	}
+	/* /Общие стили */
+}
+
+/* Третья точка */
+@media screen and (max-width: ) {
+
+}
+
+/* Четвертая точка */
+@media screen and (max-width: ) {
+
+}
+
+
+/* /Адаптивность */
